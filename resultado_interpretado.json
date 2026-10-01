@@ -1,0 +1,34 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": "Ma Luiza Fortes",
+  "ano": "8°",
+  "q1": {
+    "alternativa": "B"
+  },
+  "q2": {
+    "sequencia": [
+      "círculo",
+      "hexágono",
+      "triângulo invertido",
+      "estrela"
+    ],
+    "observacao": null
+  },
+  "q3": {
+    "resposta": null
+  },
+  "q4": {
+    "testou_caminho": true,
+    "representacao": "círculo, triângulo invertido, losango, seta, círculo"
+  },
+  "q5": {
+    "resposta": "Depois que eu li o enunciado de novo."
+  },
+  "q6": {
+    "resposta": "USAR o cérebro."
+  },
+  "q7": {
+    "mudou_resposta": true,
+    "justificativa": null
+  }
+}
