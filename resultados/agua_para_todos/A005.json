@@ -1,0 +1,52 @@
+{
+  "atividade": "Água para todos",
+  "nome_estudante": "Papilla Gomes Fracari",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "D",
+    "status": "ok"
+  },
+  "q2": {
+    "representacao": "Analisei as estradas que ligam as vilas aos três centros de distribuição que já existem. Verifiquei quais vilas estariam a mais de duas estradas de distância.",
+    "status": "ok"
+  },
+  "q3": {
+    "pontos_considerados": [
+      4
+    ],
+    "somente_resposta_final": true,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_ponto": false,
+    "explicacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "Partindo de cada vila, o menor caminho até um dos centros de distribuição. Com o centro no ponto 4, todas as vilas conseguem chegar a um centro passando por no máximo duas estradas.",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "A dificuldade foi analisar todos os caminhos do mapa.",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": true,
+    "justificativa": "Antes de considerar minha resposta final, conversei com meu colega e percebi que o ponto 4 era o melhor caminho.",
+    "status": "ok"
+  },
+  "codigo_aluno": "A005",
+  "codigo_atividade": "agua_para_todos",
+  "arquivo_resposta": "A005_resposta.jpg",
+  "arquivo_questao": "A005_questao.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-10-02T00:49:27",
+    "hashes_entrada": {
+      "resposta": "389d1efa23738c8237876163f4fee9a6ba043b8cf0446405900f8c6fc1eef552",
+      "questao": "734b63e5dba9f562c4c5ce677b5d432aecb8b015972bfd9b893edd9a9aafb108"
+    }
+  }
+}

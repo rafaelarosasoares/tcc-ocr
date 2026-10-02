@@ -1,0 +1,55 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": null,
+  "nome_status": "ausente",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": [
+      "triângulo",
+      "estrela",
+      "lua crescente",
+      "estrela",
+      "GG",
+      "chave"
+    ],
+    "observacao": null,
+    "status": "ok"
+  },
+  "q3": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_caminho": false,
+    "representacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "PORQUE NÃO TICHA OUTRA",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "O COFRE.",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A003",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A003_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-10-02T00:44:06",
+    "hashes_entrada": {
+      "resposta": "ae4209373fe364062811afb1170d8c005f9dd4db2846a842a180ccdfd5820fe5"
+    }
+  }
+}

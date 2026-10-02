@@ -1,0 +1,50 @@
+{
+  "atividade": "Água para todos",
+  "nome_estudante": "Maryana S.S",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "D",
+    "status": "ok"
+  },
+  "q2": {
+    "representacao": "No mapa, o ponto '4' está marcado com um 'X'. Há setas desenhadas em várias estradas e números (1, 2, 3) escritos próximos a algumas estradas. Alguns nós (vilas) estão circulados. Os números 1, 2, 3 e 4 (opções de centro de distribuição) estão circulados. Na folha de resposta, o estudante escreveu: 'Fiz setas e marcações com os números de acordo com as estradas andadas para não me perder.'",
+    "status": "ok"
+  },
+  "q3": {
+    "pontos_considerados": null,
+    "somente_resposta_final": true,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_ponto": false,
+    "explicacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "com setas e marcações.",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "A parte que tive que observar com mais cuidado foi o número de estradas andadas por cada morador das vilas.",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A001",
+  "codigo_atividade": "agua_para_todos",
+  "arquivo_resposta": "A001_resposta.jpg",
+  "arquivo_questao": "A001_questao.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-10-02T00:48:21",
+    "hashes_entrada": {
+      "resposta": "b7d6194e501420cce5343a84bf3466d6bad64c67fb07c575cc056179b383dded",
+      "questao": "64714003a94e344e3cc2c9be6cb4208c19a73f550e082dfd5ffba3539db63236"
+    }
+  }
+}

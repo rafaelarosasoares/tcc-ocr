@@ -1,0 +1,48 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": "Erick Reuer",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "A",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": null,
+    "observacao": "Desenho de uma grade de quadrados/retângulos com setas indicando um caminho.",
+    "status": "ok"
+  },
+  "q3": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_caminho": false,
+    "representacao": "balinha, coração, mais a dal deu arvore",
+    "status": "revisar"
+  },
+  "q5": {
+    "resposta": "contando para menor",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "encontrar o ciclo mais rapido",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A005",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A005_respostaa.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-10-02T00:44:45",
+    "hashes_entrada": {
+      "resposta": "5b28b6ba5e8cc6ae3a13c18cb4c0acd288265e29535cf463be734353efc8e4d0"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "atividade": "Água para Todos",
+  "nome_estudante": "Laura R",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "D",
+    "status": "ok"
+  },
+  "q2": {
+    "representacao": "No mapa (IMAGEM 1), o nó 4 está circulado. Linhas são desenhadas do nó 4 para todos os outros nós no mapa. Essas linhas traçam caminhos, com alguns caminhos tendo um segmento de comprimento (por exemplo, do 4 para o 1, 2, 3, e o nó abaixo do 4) e outros tendo dois segmentos de comprimento (por exemplo, do 4 para o 1, e então para o nó acima do 1; do 4 para o 2, e então para o nó acima do 2; do 4 para o 3, e então para o nó à direita do 3). Não há texto ou outras marcações presentes no mapa.",
+    "status": "ok"
+  },
+  "q3": {
+    "pontos_considerados": null,
+    "somente_resposta_final": true,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_ponto": false,
+    "explicacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "Sim",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "Tentar achar o centro que possibilite até 2 caminhos.",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A002",
+  "codigo_atividade": "agua_para_todos",
+  "arquivo_resposta": "A002_resposta.jpg",
+  "arquivo_questao": "A002_questao.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-10-02T00:48:39",
+    "hashes_entrada": {
+      "resposta": "d2b7f62cf83f7d08b7859fb4d7b189d927cfca395563fda86ac034b52ce664a2",
+      "questao": "1f2d1a61cf2daa9b5b7995a6ef65873e747b9b611023313de3f43e3d539e96ac"
+    }
+  }
+}

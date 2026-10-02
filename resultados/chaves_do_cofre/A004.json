@@ -1,0 +1,54 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": "Nicolas",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": [
+      "diamante",
+      "seta",
+      "coração",
+      "seta",
+      "chave"
+    ],
+    "observacao": null,
+    "status": "ok"
+  },
+  "q3": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_caminho": false,
+    "representacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "PORQUE EU CONTEI",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "CHEGAR COM UM NUMERO MENOR",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A004",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A004_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-10-02T00:44:18",
+    "hashes_entrada": {
+      "resposta": "e05becaec7ef8700447b8d8362e4aaa36a4f639c5a9a0d463269f300b8e7ea01"
+    }
+  }
+}

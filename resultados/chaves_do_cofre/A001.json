@@ -1,7 +1,8 @@
 {
   "atividade": "As chaves do cofre",
-  "nome_estudante": "Ma Luiza Fortes",
-  "ano": "8°",
+  "nome_estudante": "Mª Luiza Fortes",
+  "nome_status": "ok",
+  "ano": "8º",
   "q1": {
     "alternativa": "B",
     "status": "ok"
@@ -10,9 +11,8 @@
     "sequencia": [
       "círculo",
       "hexágono",
-      "triângulo para baixo",
-      "estrela",
-      "chave"
+      "triângulo invertido",
+      "estrela"
     ],
     "observacao": null,
     "status": "ok"
@@ -23,7 +23,7 @@
   },
   "q4": {
     "testou_caminho": true,
-    "representacao": "círculo -> triângulo para baixo -> círculo -> seta -> círculo",
+    "representacao": "círculo -> triângulo invertido -> círculo -> seta -> círculo",
     "status": "ok"
   },
   "q5": {
@@ -38,5 +38,16 @@
     "mudou_resposta": true,
     "justificativa": null,
     "status": "ok"
+  },
+  "codigo_aluno": "A001",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A001_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-10-02T00:43:32",
+    "hashes_entrada": {
+      "resposta": "b5ba1a779b781e7dbafffb4c519e1a0de6deb004e8fac69c55bb6e070de74c24"
+    }
   }
 }

@@ -1,0 +1,53 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": "Maryana S.S",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": [
+      "(☆)",
+      "(▽)",
+      "(☆)",
+      "(৫)"
+    ],
+    "observacao": "Isso era Pha ser um Pentagoho Kkkk",
+    "status": "ok"
+  },
+  "q3": {
+    "resposta": "O (Pentagoho) -> Pentagono (▽) -> (☆) -> (৫) -> CHAVE",
+    "status": "ok"
+  },
+  "q4": {
+    "testou_caminho": true,
+    "representacao": "Testei CADA círculo Até chegar em um bom camihHo",
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "Testando todos os outros CAMINHOS \"Possíveis\"",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "ver por QUAI dos círculos eu tehia que Inicia.r.",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A002",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A002_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-10-02T00:43:51",
+    "hashes_entrada": {
+      "resposta": "4f04670ac8a644e9ab4ebaf88e311bb6dc01326168cb631ea9d888cba91732f7"
+    }
+  }
+}

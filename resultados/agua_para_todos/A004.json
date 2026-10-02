@@ -1,0 +1,53 @@
+{
+  "atividade": "Água para todos",
+  "nome_estudante": "BERTHA BOEKT",
+  "nome_status": "revisar",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "A",
+    "status": "ok"
+  },
+  "q2": {
+    "representacao": "O estudante escreveu 'ANALISEI OS CAMINHOS E MARQUEI NO MAPA.'. No mapa, o estudante marcou um 'X' sobre os centros de distribuição originais (círculos verdes) nos nós 1, 2, 3, no nó à esquerda do 1 e no nó acima do 3. Há também um círculo fraco a lápis em torno do nó 4.",
+    "status": "revisar"
+  },
+  "q3": {
+    "pontos_considerados": [
+      3,
+      4
+    ],
+    "somente_resposta_final": false,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_ponto": true,
+    "explicacao": "NÃO RESOLVIA PORQUE AS VILAS FICAVAM A MAIS DE DUAS ESTRADAS DO CENTRO DE DISTRIBUIÇÃO.",
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "VERIFIQUEI ANALISANDO CADA CAMINHO COM SEUS NÓS.",
+    "status": "revisar"
+  },
+  "q6": {
+    "resposta": "FOI A PARTE MAIS DIFÍCIL DE DESENHAR OS CAMINHOS.",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A004",
+  "codigo_atividade": "agua_para_todos",
+  "arquivo_resposta": "A004_resposta.jpg",
+  "arquivo_questao": "A004_questao.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-10-02T00:49:14",
+    "hashes_entrada": {
+      "resposta": "6c6dbeabcc394139ad6d1c050976527ddda8b41648059b200d8ecc418195d5e2",
+      "questao": "73c204130e738caa19d043e1fb267c531399f82b79053b404fab79e007ae3925"
+    }
+  }
+}
