@@ -1,0 +1,81 @@
+Revisão 03/10:
+- Introdução: ver comentários no "Review panel"
+- Ver sugestão de introdução abaixo (*), produzida com apoio do ChatGPT, mas ainda sem considerar todos os comentários no "Review panel"
+
+
+
+(*) Introdução alterada com ChatGPT:
+
+\section{Introdução}
+
+A presença da Computação na Educação Básica envolve conhecimentos e práticas que vão além do domínio de ferramentas digitais ou da aprendizagem de linguagens de programação. Entre os conhecimentos associados à área, destaca-se o Pensamento Computacional, entendido como um conjunto de formas de organizar e resolver problemas de maneira metódica. No contexto educacional brasileiro, a Base Nacional Comum Curricular (BNCC) \cite{brasil2018} e as Normas sobre Computação na Educação Básica -- Complemento à BNCC \cite{cne2022} reconhecem o Pensamento Computacional como um eixo formativo relacionado, entre outros aspectos, à criação e análise de algoritmos, à identificação de padrões, à decomposição de problemas e à elaboração de representações que auxiliem na resolução de situações-problema.
+
+A inserção da Computação na Educação Básica vem sendo ampliada também por iniciativas institucionais recentes. Em 2022, a Resolução CNE/CEB nº 1 estabeleceu as Normas sobre Computação na Educação Básica -- Complemento à BNCC \cite{cne2022}. No ano seguinte, a Lei nº 14.533 instituiu a Política Nacional de Educação Digital \cite{brasil2023pned}, contemplando ações voltadas à inclusão digital e à Educação Digital Escolar. Esse cenário amplia a necessidade não apenas de trabalhar habilidades de Computação no ambiente escolar, mas também de compreender como essas habilidades se manifestam durante as atividades realizadas pelos estudantes.
+
+Embora essas habilidades possam ser trabalhadas em diferentes componentes curriculares e por meio de atividades plugadas ou desplugadas, sua avaliação em contexto escolar apresenta desafios. Uma resposta correta não permite, de forma isolada, compreender de que modo o estudante organizou a solução do problema, quais estratégias testou, quais representações utilizou ou como verificou se sua resposta estava correta. Da mesma forma, uma resposta incorreta não implica necessariamente ausência das habilidades investigadas, pois o processo de resolução pode revelar estratégias coerentes, tentativas de decomposição, revisão de hipóteses ou outros indícios relevantes.
+
+A avaliação do Pensamento Computacional apresenta diversidade de abordagens e instrumentos. Em uma revisão sistemática sobre o tema, \citeonline{tang2020} identificaram diferentes formas de avaliação, incluindo testes, avaliações de desempenho, análise de produções e questionários, destacando que diferentes instrumentos podem observar dimensões distintas do Pensamento Computacional. Assim, um único resultado ou medida dificilmente representa, de forma isolada, toda a variedade de habilidades mobilizadas pelo estudante durante a resolução de um problema.
+
+Esta pesquisa se insere no contexto de atividades desenvolvidas com estudantes do 8º ano do Ensino Fundamental da Escola Municipal de Ensino Fundamental Lívia Menna Barreto, em Santa Maria, Rio Grande do Sul, vinculadas ao projeto de extensão ``Conectando Saberes: Letramento Digital para Discentes em Instituições de Ensino'', da Universidade Federal de Santa Maria. As atividades realizadas nesse contexto, inicialmente guiadas por uma abordagem instrucional intercalada com desafios de programação com blocos, motivaram a busca por formas de observar não apenas se os estudantes chegavam à resposta esperada, mas também como construíam suas respostas, quais estratégias utilizavam e como percebiam suas próprias dificuldades durante a resolução.
+
+Nesse contexto, as atividades do Desafio Bebras constituem uma possibilidade para investigar processos de resolução relacionados ao Pensamento Computacional. O Bebras é uma iniciativa internacional voltada à promoção da Computação e do Pensamento Computacional na Educação Básica. Suas tarefas apresentam problemas curtos, contextualizados e, em geral, independentes de conhecimento prévio de programação, o que permite explorar estratégias de resolução sem vinculá-las necessariamente ao domínio de uma linguagem ou ambiente de programação específico. No Brasil, o regulamento do desafio associa as tarefas às habilidades de abstração, pensamento algorítmico, decomposição, avaliação e reconhecimento de padrões, reconhecendo ainda que uma mesma questão pode mobilizar mais de uma dessas habilidades \cite{bebras2026}.
+
+Entretanto, quando essas atividades são utilizadas com finalidade avaliativa, considerar somente a alternativa marcada pode limitar a compreensão sobre o processo de resolução. \citeonline{dejong2024}, ao investigarem qualitativamente a resolução de tarefas Bebras, observaram que a mobilização de determinadas habilidades de Pensamento Computacional nem sempre resulta em uma resposta correta. Dessa forma, a observação do processo utilizado pelo estudante pode fornecer informações que não estão presentes no resultado final da tarefa.
+
+Este trabalho parte, portanto, da utilização de atividades Bebras não como instrumento de mensuração precisa ou de classificação dos estudantes, mas como suporte para uma avaliação diagnóstica e qualitativa. As atividades são acompanhadas de instrumentos de registro nos quais os estudantes podem explicitar justificativas, representações, tentativas, dificuldades percebidas, formas de verificação e mudanças de estratégia. Esses registros buscam tornar observáveis aspectos do processo de resolução e, ao mesmo tempo, estimular os estudantes a refletirem sobre o próprio raciocínio, aproximando a proposta de uma perspectiva de reflexão metacognitiva, sem que a metacognição seja tratada neste trabalho como um construto independente a ser avaliado.
+
+A adoção de uma abordagem qualitativa amplia, entretanto, a quantidade e a complexidade dos dados produzidos. Além da resposta final, passam a ser considerados registros manuscritos, justificativas, representações, tentativas e mudanças de estratégia. Diante disso, este trabalho investiga também um processo computacional de apoio à digitalização, extração, organização e análise dessas informações, envolvendo reconhecimento óptico de caracteres e inteligência artificial generativa. O objetivo desse apoio computacional é auxiliar o pesquisador a lidar de forma sistemática com o volume e a diversidade das evidências produzidas, preservando os registros originais e a interpretação humana como referências da análise.
+
+A contribuição proposta está, portanto, na articulação entre desafios Bebras, instrumentos voltados ao registro do processo de resolução e recursos computacionais de apoio à análise qualitativa. Busca-se construir um processo reutilizável que permita considerar, em conjunto, a resposta final e diferentes evidências do raciocínio desenvolvido pelo estudante, sem reduzir a avaliação à correção da resposta nem substituir a análise humana por procedimentos automatizados.
+
+Diante desse contexto, este trabalho investiga como desafios Bebras, acompanhados de registros sobre o processo de resolução, podem apoiar a avaliação qualitativa da mobilização de habilidades de Pensamento Computacional por estudantes do 8º ano do Ensino Fundamental. O objetivo geral é analisar, de forma qualitativa, como esses estudantes mobilizam habilidades de Pensamento Computacional durante a resolução das atividades, considerando tanto as respostas obtidas quanto justificativas, representações, tentativas, formas de verificação e mudanças de estratégia registradas ao longo do processo.
+
+A investigação combina uma etapa diagnóstica inicial com atividades posteriores selecionadas a partir das dificuldades, estratégias e aspectos pouco evidenciados nas aplicações anteriores. A escolha da turma considera a adequação das tarefas da categoria Cadets do Bebras, destinada aos 8º e 9º anos, e a possibilidade de acompanhar os estudantes ao longo de encontros semanais.
+
+A relevância do trabalho está na busca por uma forma de avaliação que considere não apenas o produto final da resolução, mas também evidências do raciocínio desenvolvido ao longo do processo. Para professores e para a escola participante, a identificação de dificuldades e estratégias recorrentes pode contribuir para o planejamento de atividades posteriores mais adequadas às necessidades observadas. No âmbito acadêmico, o estudo busca contribuir para a discussão sobre formas qualitativas de avaliação do Pensamento Computacional e explorar como recursos computacionais podem apoiar a análise de registros mais detalhados sem eliminar a necessidade da interpretação humana.
+
+----------------------------------------------------------------------------
+Revisão 01/10:
+- **Prioridade MÁXIMA** é acrescentar resultados parciais: separar em 2 dimensões, o que se descobriu sobre a aprendizagem e a experiência adquirida com o processo
+- Adicionar no apêndice as folhas de atividades aplicadas até o momento, citando-as no texto
+- Adicionar diagrama com visão geral do processo de análise
+
+
+
+
+- Seção 3:
+  - Tem redundância de informações no início da seção 3 e na 3.1
+
+
+  
+- Estilo: equilibrar vícios de escrita dos LLMS, por exemplo: na seção 3, "O interesse não está ..., mas em..."; final da seção 2 (""..., e não como substituta"). Essas construções de frases fazem sentido para mostrar contrastes e explicar o que o trabalho é e o que não é, mas ficam cansativas quando usadas em excesso.
+
+
+----------------------------------------------------------------------------
+Revisão 25/09:
+
+- Resumo e introdução estão praticamente entregáveis: merecem ajustes para destacar relevância e originalidade, mas já comunicam bem o básico sobre o trabalho
+- A **prioridade máxima** agora é completar as seções seguintes, não ficar refinando as anteriores
+
+
+- Sugestão de resumo produzido com apoio de IA generativa a partir do texto em construção e de uma lógica ligeiramente diferente, destacando alguns pontos fortes e fragilidades:
+
+O Pensamento Computacional tem assumido papel crescente na Educação Básica, envolvendo habilidades relacionadas à resolução de problemas, como abstração, decomposição, reconhecimento de padrões, pensamento algorítmico e avaliação de soluções. Sua avaliação, entretanto, é complexa, especialmente quando se baseia predominantemente no resultado final das atividades, pois o acerto ou erro não revela, por si só, as estratégias utilizadas, as dificuldades encontradas, as tentativas realizadas ou as mudanças de raciocínio ocorridas durante a resolução. Este trabalho explora uma abordagem qualitativa para investigar como estudantes do 8º ano do Ensino Fundamental mobilizam habilidades de Pensamento Computacional ao resolver problemas. Para isso, são utilizados desafios Bebras, por oferecerem tarefas estruturadas de resolução de problemas relacionadas à Computação e, em geral, independentes do domínio prévio de uma linguagem ou ambiente de programação. As atividades são acompanhadas de folhas-registro elaboradas para tornar observáveis aspectos do processo de resolução, como justificativas, representações, tentativas, formas de verificação e mudanças de estratégia, além de estimular a reflexão dos estudantes sobre o próprio raciocínio. A investigação é realizada em uma escola municipal de Santa Maria, Rio Grande do Sul, e combina uma etapa diagnóstica inicial com uma etapa reativa, na qual atividades posteriores são selecionadas a partir das evidências observadas nas aplicações anteriores. Como esse tipo de avaliação produz registros qualitativos mais ricos e numerosos do que respostas objetivas isoladas, o trabalho também investiga um fluxo computacional de apoio à digitalização, organização e análise dos dados, com uso de reconhecimento óptico de caracteres e inteligência artificial generativa, mantendo a conferência dos registros originais e a interpretação humana. Espera-se contribuir para a discussão sobre formas de avaliação do Pensamento Computacional que considerem o processo de resolução e para a construção de um processo reutilizável de apoio à análise qualitativa em contexto escolar.
+
+Palavras-chave: Pensamento Computacional; Bebras; Avaliação qualitativa; Estratégias de resolução; Inteligência artificial generativa.
+
+
+
+- Sobre apoio de IA generativa (OCR é pouco):
+
+    - O que exatamente é enviado ao Gemini? Foto ou PDF da folha inteira? Recortes? Texto previamente extraído?
+    - O Gemini recebe diretamente a imagem manuscrita? Se sim, existe OCR separado ou você está usando a própria capacidade multimodal do Gemini para ler a escrita?
+    - Qual é o prompt? Mesmo que ainda esteja provisório, é importante revelar o que você pede ao modelo.
+    - Qual é a saída esperada? Texto corrido, JSON, tabela, categorias?
+    - O modelo só transcreve ou também interpreta? Por exemplo: "o estudante mudou de estratégia", "houve decomposição", "parece ter usado tentativa e erro".
+    - Há uma taxonomia prévia de habilidades/estratégias, ou o Gemini produz categorias livremente?
+    - Quem confere a saída e como? Compara com a folha original? Corrige erros? Aceita ou rejeita classificações?
+    - O resultado da IA entra diretamente na análise científica, ou serve apenas para organizar e localizar material que depois será analisado manualmente?
+    - Há armazenamento das imagens/respostas em algum sistema externo, ou elas são apenas processadas via API?
+    - Já apareceram possíveis problemas com folhas reais? Rasura, seta, desenho, resposta espremida na margem e letra totalmente incompreensível até por humanos.
+

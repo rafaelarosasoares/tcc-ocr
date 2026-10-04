@@ -1,0 +1,673 @@
+%% abtex2-modelo-artigo.tex, v<VERSION> laurocesar
+%% Copyright 2012-<COPYRIGHT_YEAR> by abnTeX2 group at http://www.abntex.net.br/ 
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is the abnTeX2 team, led
+%% by Lauro César Araujo. Further information are available on 
+%% http://www.abntex.net.br/
+%%
+%% This work consists of the files abntex2-modelo-artigo.tex and
+%% abntex2-modelo-references.bib
+%%
+
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% abnTeX2: Modelo de Artigo Acadêmico em conformidade com
+% ABNT NBR 6022:2018: Informação e documentação - Artigo em publicação 
+% periódica científica - Apresentação
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+
+\documentclass[
+	% -- opções da classe memoir --
+	article,			% indica que é um artigo acadêmico
+	12pt,				% tamanho da fonte
+	oneside,			% para impressão apenas no recto. Oposto a twoside
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE % títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	brazil,				% o último idioma é o principal do documento 
+	%sumario=abnt-6027-2012   % alternativa: sumario=tradicional
+    sumario=tradicional
+	]{abntex2}
+
+% ---
+% DADOS GERAIS DO TRABALHO PARA AS PÁGINAS INICIAIS
+% ---
+
+\newcommand{\MyInstitution}{Universidade Federal de Santa Maria}
+\newcommand{\MyCenter}{Centro de Tecnologia}
+\newcommand{\MyCourse}{Curso de Bacharelado em Ciência da Computação}
+\newcommand{\MyDegree}{Bacharel em Ciência da Computação}
+\newcommand{\MyTitle}{Avaliação qualitativa do pensamento computacional no ensino fundamental: um processo baseado em desafios Bebras e análise de estratégias de resolução com apoio de IA generativa}
+%Da resolução à análise: um processo para avaliação qualitativa do pensamento computacional com desafios Bebras}
+\newcommand{\MyForeignTitle}{Qualitative Assessment of Computational Thinking in Elementary Education: A Process Based on Bebras Challenges and the Analysis of Problem-Solving Strategies with Generative AI Support}
+\newcommand{\MyAuthor}{Rafaela da Rosa Soares}
+\newcommand{\MyFootnote}{Autor: Graduando no \MyCourse~ pela \MyInstitution.}
+\newcommand{\MyLocation}{Santa Maria, RS}
+
+\newcommand{\MyDescriptionText}{Trabalho Final de Graduação apresentado ao \MyCourse~ da \MyInstitution~ (UFSM, RS), como requisito parcial para obtenção do grau de \textbf{\MyDegree}.}
+
+\newcommand{\MyAdvisorName}{Andrea Schwertner Charão}
+\newcommand{\MyAdvisorFootnote}{Orientadora: Professora do Departamento de Linguagens e Sistemas de Computação da \MyInstitution.}
+\newcommand{\MyAdvisorTitle}{ORIENTADORA: Profa.}
+\newcommand{\MyAdvisorCommitteeRole}{(Presidente/Orientadora)}
+\newcommand{\MyFirstExaminer}{Silvia de Castro Bertagnolli (IFRS)}
+\newcommand{\MySecondExaminer}{Leandro Krug Wives (UFRGS)}
+\newcommand{\MyYear}{2026}
+\newcommand{\MyPresentationDate}{.. de ... de \MyYear}
+
+
+
+% ---
+% PACOTES
+% ---
+
+% ---
+% Pacotes fundamentais 
+% ---
+%\usepackage{lmodern}			% Usa a fonte Latin Modern
+\usepackage{times}              % Usa a fonte Times
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{nomencl} 			% Lista de simbolos
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{setspace}
+\usepackage{scalefnt}
+\usepackage{amsfonts} % checkmarks
+\usepackage{makecell}
+\usepackage{float}
+
+\usepackage{hyperref}
+\usepackage{pdfpages}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage[justification=centering]{caption}
+
+\usepackage{dirtree}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{placeins}
+\usepackage{xltabular}
+\usepackage{amsmath}
+\usepackage{listings}
+
+% \usepackage{trivfloat}
+% \usepackage{chngcntr}
+% \usepackage{float}
+
+\usepackage{newfloat}
+\usepackage{soul}
+\usepackage{xcolor}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
+% ---
+	
+% ---
+% Pacotes de citações
+% ---
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf,abnt-nbr10520=1988]{abntex2cite}
+
+% \usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+%\usepackage{biblatex-abnt}
+% Sobre atualização na norma de citações NBR 10520:2023:
+% Ver https://groups.google.com/g/abntex2/c/yQ-AgdE9338?pli=1
+% \usepackage[style=abnt]{biblatex}
+% \renewcommand*{\mkbibnamefamily}[1]{#1}%
+% ---
+
+
+\usepackage{titling}
+
+\usepackage{appendix}
+\usepackage{listings}
+
+\usepackage{setspace} % for \onehalfspacing and \singlespacing macros
+\usepackage{xcolor}
+\usepackage{colortbl}
+
+\usepackage{textcomp}
+\usepackage{etoolbox}
+
+% --------------
+% Configurações para code listing
+% --------------
+\definecolor{lightgray}{rgb}{.9,.9,.9}
+\definecolor{darkgray}{rgb}{.4,.4,.4}
+\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+\definecolor{background}{rgb}{0.40, 0.42, 0.54}
+\definecolor{keywords}{rgb}{0.65, 0.12, 0.82}
+
+
+\let\quoteOld\quote
+\let\endquoteOld\endquote
+
+
+\renewenvironment{quote}{\small\quoteOld}{\endquoteOld}
+%\renewenvironment{quote}{\quotefont\small\quoteOld}{\endquoteOld}
+
+
+\renewcommand{\lstlistingname}{Bloco de código}
+\lstdefinelanguage{JavaScript}{
+  keywords={abstract, any, as, boolean, break, case, catch, class, console, const, continue, debugger, declare, default, delete, do, else, enum, export, 
+    extends, false, finally, for, from, function, get, if, implements, import, in, 
+    infer, instanceof, interface, keyof, let, module, namespace, never, new, null, 
+    number, object, package, private, protected, public, readonly, require, return, 
+    set, static, string, super, switch, symbol, this, throw, true, try, type, typeof, 
+    undefined, unique, unknown, var, void, while, with, yield},
+  keywordstyle=\color{blue}\bfseries,
+  ndkeywords={class, export, boolean, throw, implements, import, this},
+  ndkeywordstyle=\color{darkgray}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+
+\lstset{
+   language=JavaScript,
+   backgroundcolor=\color{lightgray},
+   extendedchars=true,
+   basicstyle=\footnotesize\ttfamily,
+   showstringspaces=false,
+   showspaces=false,
+   numbers=none,  % left, right, none
+   numberstyle=\footnotesize,
+   numbersep=9pt,
+   tabsize=2,
+   breaklines=true,
+   showtabs=false,
+   captionpos=b
+}
+
+\lstdefinestyle{prompt}{
+    basicstyle=\ttfamily\scriptsize,
+    breaklines=true,
+    columns=fullflexible,
+    keepspaces=true,
+    showstringspaces=false,
+    extendedchars=true,
+    inputencoding=utf8,
+    literate=
+        {á}{{\'a}}1
+        {à}{{\`a}}1
+        {ã}{{\~a}}1
+        {â}{{\^a}}1
+        {Á}{{\'A}}1
+        {À}{{\`A}}1
+        {Ã}{{\~A}}1
+        {Â}{{\^A}}1
+        {é}{{\'e}}1
+        {ê}{{\^e}}1
+        {É}{{\'E}}1
+        {Ê}{{\^E}}1
+        {í}{{\'i}}1
+        {Í}{{\'I}}1
+        {ó}{{\'o}}1
+        {õ}{{\~o}}1
+        {ô}{{\^o}}1
+        {Ó}{{\'O}}1
+        {Õ}{{\~O}}1
+        {Ô}{{\^O}}1
+        {ú}{{\'u}}1
+        {Ú}{{\'U}}1
+        {ç}{{\c{c}}}1
+        {Ç}{{\c{C}}}1
+}
+
+\lstdefinestyle{prompt}{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single,
+    columns=fullflexible
+}
+
+%\setlength{\cftchapternumwidth}{20mm}
+%\setlength{\cftsectionnumwidth}{20mm}
+    
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+% ---
+
+
+
+
+% --- Informações de dados para CAPA e FOLHA DE ROSTO ---
+\titulo{\MyTitle}
+\tituloestrangeiro{\MyForeignTitle}
+\autor{\MyAuthor}
+\local{\MyLocation}
+\data{\MyYear}
+\orientador{\MyAdvisor}
+\instituicao{%
+  \MyInstitution
+  \par
+  \MyCenter
+  \par
+  \MyCourse}
+\tipotrabalho{Trabalho de Graduação}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{Modelo canônico de trabalho monográfico acadêmico em conformidade com as normas ABNT apresentado à comunidade de usuários.}
+
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+%\patchcmd{\@maketitle}{\LARGE}{\Huge}{\typeout{OK 1}}{\typeout{Failed 1}}
+
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={Modelo de artigo científico com abnTeX2},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{artigo científico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+% ---
+% Altera as margens padrões
+% ---
+\setlrmarginsandblock{3cm}{3cm}{*}
+\setulmarginsandblock{3cm}{3cm}{*}
+\checkandfixthelayout
+% ---
+
+
+
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% Espaçamento simples
+\SingleSpacing
+
+
+
+
+\renewcommand{\ABNTEXsectionfontsize}{\normalsize} 
+\renewcommand{\ABNTEXsectionfont}{\normalfont\bfseries} 
+\renewcommand{\ABNTEXsubsectionfontsize}{\normalsize} 
+\renewcommand{\ABNTEXsubsectionfont}{\normalfont\bfseries} 
+
+
+\renewcommand{\cftchapterfont}{\ABNTEXchapterfont\rmfamily}
+\renewcommand{\cftsectionfont}{\ABNTEXsectionfont\rmfamily}
+\renewcommand{\cftsubsectionfont}{\normalfont\rmfamily}
+\renewcommand{\cftsubsubsectionfont}{\rmfamily}
+
+
+
+\renewcommand{\maketitle}{%
+  \begin{center}
+  {\textbf{\MakeUppercase\thetitle}}\par
+  {\MakeUppercase\theforeigntitle}\par\vspace{0.5cm}
+  
+  \textbf{\MyAuthor\footnote{\MyFootnote}, 
+  \MyAdvisorName\footnote{\MyAdvisorFootnote}}\par
+  \end{center}
+}
+
+
+\DeclareFloatingEnvironment[
+  fileext=loq,
+  listname=List of Quadros,
+  name=Quadro,
+  placement=htp,
+]{quadro}
+
+\captionsetup[quadro]{position=top}
+
+
+% \trivfloat{quadro}
+% \newcounter{quadro} % cria o contador
+% \renewcommand{\thequadro}{\arabic{quadro}}
+% \floatname{quadro}{Quadro}
+
+
+
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+
+
+
+%\renewcommand*{\l@section}{\@dottedtocline{1}{1em}{2em}}
+
+
+%\renewcommand{\@pnumwidth}{1em}
+
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+%\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+
+
+%\setlength{\parskip}{0.0cm}
+  \begin{center}
+    %\singlespacing
+    {\noindent\large{{\MakeUppercase{\MyInstitution}}}}\\%
+    {\large{{\MakeUppercase{\MyCenter}}}}\\%
+    {\large{{\MakeUppercase{{\MyCourse}}}}}\\%
+    \vspace{8\baselineskip}
+    {\Large{\scalefont{0.926}\theauthor}}\\
+    \vspace{8\baselineskip}
+    {\large\MakeUppercase{\textbf{\thetitle}}}\\
+    \vspace{\fill}
+    {\large{\MyLocation}}\\
+    {\large{\MyYear}}
+ \end{center}
+%}
+
+\newpage
+     \begin{center}
+        %\singlespacing
+        \textbf{\noindent\theauthor}\\
+        \vspace{6.0\baselineskip}
+        \MakeUppercase{\textbf{\noindent{\thetitle}}}
+        \vspace{4.0\baselineskip}
+     \end{center}   
+     
+     \noindent\begin{flushright}
+     \noindent\begin{minipage}{0.5\textwidth}
+     %\singlespacing
+     {\noindent \MyDescriptionText}
+     % {\noindent Trabalho Final de Graduação apresentado ao \MyCourse~ da \MyInstitution~ (UFSM, RS), como requisito parcial para obtenção do grau de \textbf{\MyDegree}.}
+     \end{minipage}
+     \end{flushright}
+            \vspace{7\baselineskip}
+ 
+    \begin{center}
+        %\singlespacing
+        {{{\MyAdvisorTitle \MyAdvisorName}}}\\  
+    \vspace{\fill}
+        %{TG N. xxx\\ 
+        {\MyLocation\\
+        \MyYear}
+    \end{center}
+
+\newpage
+
+
+% \includepdf{pdfs/aprovado_assinado_tcc.pdf}
+
+% ----------------------------------------------------------
+% Folha de assinaturas
+% ----------------------------------------------------------
+
+
+
+\setlength{\parskip}{0.0cm}
+
+      \begin{center}
+         \SingleSpacing
+         \textbf{\noindent\theauthor}\\
+         \vspace{6.0\baselineskip}
+         \MakeUppercase{\textbf{\noindent\thetitle}}
+         \vspace{4.0\baselineskip}
+      \end{center}   
+    
+      \noindent\begin{flushright}
+      \noindent\begin{minipage}{0.5\textwidth}
+      \SingleSpacing
+      {\noindent \MyDescriptionText}
+ %      {\noindent Trabalho Final de Graduação apresentado ao
+ % Curso de Bacharelado em Sistemas de Informação da Universidade Federal de Santa Maria (UFSM, RS), como requisito parcial para obtenção do grau de \textbf{\MyDegree.}}
+      \end{minipage}
+      \end{flushright}
+    
+      \SingleSpacing
+      \vspace{0.25\baselineskip}
+       \begin{center}
+
+      \SingleSpacing
+      \textbf{Aprovado em \MyPresentationDate:}
+      \vspace{2.0\baselineskip}
+
+
+
+
+         \if@orientador
+         \ifthenelse{\equal{\@orientadorpresidente}{P} \OR \equal{\@orientadorpresidente}{M}}
+         \fi
+
+        \vspace{1.0\baselineskip}
+        \noindent\rule{0.5\textwidth}{1.pt}\\
+        \noindent\textbf{\MyAdvisorName~ (UFSM)}\\
+        \MyAdvisorCommitteeRole
+
+        \vspace{1.0\baselineskip}
+        \noindent\rule{0.5\textwidth}{1.pt}\\
+        \noindent\textbf{\MyFirstExaminer}\\
+        
+        \vspace{1.0\baselineskip}
+        \noindent\rule{0.5\textwidth}{1.pt}\\
+        \noindent\textbf{\MySecondExaminer}\\
+       
+       
+         \vspace{\fill}
+
+         \MyLocation\\
+         \MyYear
+         \end{center}
+         
+
+\newpage
+
+\begin{KeepFromToc}
+
+\begin{center}
+\section*{Agradecimentos}
+\end{center}
+
+Aqui vai um texto dirigido às pessoas ou entidades que contribuíram de maneira relevante para a elaboração do trabalho.
+
+
+
+\newpage
+
+
+
+\setlength{\parskip}{0.0cm}
+      \vspace*{\fill}
+      \begin{flushright}
+      \begin{minipage}{0.45\textwidth}
+      \textit{""}      
+      \begin{flushright}\footnotesize{\textit{()}}\end{flushright}
+      \end{minipage}
+      \end{flushright}
+      
+\end{KeepFromToc}
+
+
+
+\newpage
+
+% página de titulo principal (obrigatório)
+%\begin{titlingpage}
+\maketitle
+%\end{titlingpage}
+
+
+% titulo em outro idioma (opcional)
+
+
+
+% resumo em português
+\begin{resumoumacoluna}
+O Pensamento Computacional tem assumido papel crescente na Educação Básica, envolvendo habilidades relacionadas à resolução de problemas, como abstração, decomposição, reconhecimento de padrões, pensamento algorítmico e avaliação de soluções. Sua avaliação, entretanto, é complexa, especialmente quando se baseia predominantemente no resultado final das atividades, pois o acerto ou erro não revela, por si só, as estratégias utilizadas, as dificuldades encontradas, as tentativas realizadas ou as mudanças de raciocínio ocorridas durante a resolução. Este trabalho propõe uma abordagem qualitativa para investigar como estudantes do 8º ano do Ensino Fundamental mobilizam habilidades de Pensamento Computacional ao resolver problemas. Para isso, são utilizados desafios Bebras, por oferecerem tarefas estruturadas de resolução de problemas relacionadas à Computação e, em geral, independentes do domínio prévio de uma linguagem ou ambiente de programação. As atividades são acompanhadas de folhas-registro elaboradas para tornar observáveis aspectos do processo de resolução, como justificativas, representações, tentativas, formas de verificação e mudanças de estratégia, além de estimular a reflexão dos estudantes sobre o próprio raciocínio. A investigação é realizada em uma escola municipal de Santa Maria, Rio Grande do Sul, e combina uma etapa diagnóstica inicial com uma etapa reativa, na qual atividades posteriores são selecionadas a partir das evidências observadas nas aplicações anteriores. Como esse tipo de avaliação produz registros qualitativos mais ricos e numerosos do que respostas objetivas isoladas, o trabalho também investiga um fluxo computacional de apoio à digitalização, organização e análise dos dados, com uso de reconhecimento óptico de caracteres e inteligência artificial generativa, mantendo a conferência dos registros originais e a interpretação humana. Espera-se contribuir para a discussão sobre formas de avaliação do Pensamento Computacional que considerem o processo de resolução e para a construção de um processo reutilizável de apoio à análise qualitativa em contexto escolar.
+
+%\vspace{\onelineskip}
+ 
+ \noindent
+ \textbf{Palavras-chave}: Pensamento Computacional; Bebras; Avaliação qualitativa; Estratégias de resolução; Inteligência artificial generativa.
+ 
+\end{resumoumacoluna}
+
+
+% resumo em inglês
+\renewcommand{\resumoname}{Abstract}
+\begin{resumoumacoluna}
+ \begin{otherlanguage*}{english}
+\textit{Abstract translated to english}
+ %\vspace{\onelineskip}
+ 
+   \noindent
+  \textit{ \textbf{Keywords}: keyword1, keyword2, keyword3; keyword4; keyword5, keyword6.}
+ \end{otherlanguage*}  
+\end{resumoumacoluna}
+
+% ]  				% FIM DE ARTIGO EM DUAS COLUNAS
+% ---
+
+% \begin{center}\smaller
+% \textbf{Data de submissão e aprovação}: elemento obrigatório. Indicar dia, mês e ano
+
+% \textbf{Identificação e disponibilidade}: elemento opcional. Pode ser indicado 
+% o endereço eletrônico, DOI, suportes e outras informações relativas ao acesso.
+% \end{center}
+\newpage
+
+\begin{KeepFromToc}
+    \renewcommand\listfigurename{Lista de Figuras}
+    \listoffigures
+    \newpage
+
+    % \listofquadro
+    % \newpage
+    %\listoftables
+    %\newpage
+        
+    \tableofcontents
+    \thispagestyle{empty}
+    \newpage
+\end{KeepFromToc}
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+\input{content}
+
+
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\newpage
+\postextual
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{references}
+
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+% Há diversas soluções prontas para glossário em LaTeX. 
+% Consulte o manual do abnTeX2 para obter sugestões.
+%
+%\glossary
+
+% ----------------------------------------------------------
+% Apêndices
+% ----------------------------------------------------------
+
+\newpage
+\appendix
+\begin{apendicesenv}
+\input{appendix}
+\end{apendicesenv}
+
+
+
+% ----------------------------------------------------------
+% Anexos
+% ----------------------------------------------------------
+%\cftinserthook{toc}{AAA}
+% ---
+% Inicia os anexos
+% ---
+%\anexos
+\begin{anexosenv}
+\input{anexos}
+\end{anexosenv}
+\end{document}
+

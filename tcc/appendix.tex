@@ -1,0 +1,426 @@
+\section{Folha de registro da atividade As Chaves do Cofre}
+\label{apendice:chaves-cofre}
+
+A folha de registro apresentada a seguir foi elaborada para coletar
+informações sobre o processo de resolução da atividade
+\textit{As Chaves do Cofre}.
+
+\section{Folha de registro da atividade Água para Todos}
+\label{apendice:agua-todos}
+
+A folha de registro apresentada a seguir foi elaborada para coletar
+informações sobre o processo de resolução da atividade
+\textit{Água para Todos}.
+
+\section{Prompt utilizado na estruturação dos registros com Gemini}
+\label{apendice:prompt-gemini}
+
+O processamento dos registros utiliza instruções distintas conforme a estrutura de cada atividade. Além das imagens digitalizadas, o Gemini recebe o texto previamente extraído pelo Google Document AI e uma
+descrição dos campos presentes na atividade.
+
+Na atividade \textit{As Chaves do Cofre}, o processamento utiliza uma única imagem, correspondente à folha preenchida pelo estudante. Na atividade \textit{Água para Todos}, são utilizadas duas imagens: a folha da questão, que pode conter marcações realizadas diretamente
+sobre o mapa, e a folha de registro.
+
+A resposta do modelo é solicitada em formato JSON e segue uma estrutura previamente definida pelo programa para cada atividade. Os prompts utilizados são apresentados nas subseções seguintes.
+
+
+\subsection*{Prompt para a atividade As Chaves do Cofre}
+
+Na atividade \textit{As Chaves do Cofre}, o Gemini recebe a imagem JPG da folha preenchida pelo estudante, o texto extraído pelo OCR e a descrição da estrutura da atividade.
+
+O prompt utilizado é apresentado a seguir. Os elementos entre chaves são substituídos automaticamente pelo programa durante o processamento.
+
+\begin{lstlisting}[style=prompt]
+Você está analisando uma folha de registro de um estudante
+na atividade Bebras:
+
+"{configuracao['nome']}"
+
+A imagem contém elementos impressos da atividade
+e respostas produzidas pelo estudante.
+
+As respostas podem conter:
+
+- texto manuscrito;
+- alternativas marcadas;
+- desenhos;
+- setas;
+- formas geométricas;
+- sequências;
+- riscos;
+- outras representações.
+
+O texto abaixo foi extraído pelo Google Document AI.
+
+--- INÍCIO DO OCR ---
+
+{texto_ocr}
+
+--- FIM DO OCR ---
+
+ESTRUTURA DA ATIVIDADE:
+
+{configuracao["descricao"]}
+
+REGRAS:
+
+- Use a imagem como principal fonte.
+- Use o OCR somente como apoio.
+- Diferencie elementos impressos das respostas do estudante.
+- Não invente informações.
+- Não determine a resposta correta da atividade.
+- Não avalie o desempenho do estudante.
+- Não atribua habilidades de Pensamento Computacional.
+
+IMPORTANTE SOBRE DESENHOS E MARCAÇÕES:
+
+- Descreva apenas aquilo que é diretamente visível.
+- Não atribua intenção ao estudante.
+- Não explique por que o estudante fez determinada marcação,
+  a menos que isso esteja explicitamente escrito por ele.
+- Não transforme uma marcação visual em uma conclusão
+  sobre o raciocínio do estudante.
+- Não use expressões como "para verificar",
+  "com o objetivo de", "indicando que" ou semelhantes
+  para explicar a intenção do estudante,
+  a menos que essas palavras tenham sido escritas
+  pelo próprio estudante.
+
+Exemplo:
+
+CORRETO:
+
+"Ponto 4 circulado. Há linhas traçadas entre o ponto 4
+e outros nós."
+
+INCORRETO:
+
+"O estudante circulou o ponto 4 para verificar se todas
+as vilas estavam a duas estradas."
+
+STATUS DAS QUESTÕES:
+
+Use "ok" SOMENTE quando a informação estiver
+diretamente legível ou visualmente identificável
+sem necessidade de interpretação incerta.
+
+Use "revisar" quando:
+
+- alguma parte estiver ambígua;
+- existir mais de uma interpretação possível;
+- uma forma ou símbolo não puder ser identificado
+  com total segurança;
+- apenas parte de uma sequência estiver clara;
+- você sentir necessidade de usar palavras como
+  "parece", "possivelmente", "provavelmente",
+  "aparentemente" ou "talvez".
+
+Se houver dúvida, prefira "revisar" em vez de "ok".
+
+Use "ilegivel" quando houver conteúdo produzido
+pelo estudante, mas não for possível interpretá-lo.
+
+Uma resposta realmente em branco deve ser null.
+Uma resposta em branco pode ter status "ok",
+pois foi possível verificar que o campo está vazio.
+
+NOME DO ESTUDANTE:
+
+- Se estiver claramente legível:
+  nome_status = "ok".
+
+- Se houver uma leitura provável, mas com dúvida:
+  registre a leitura provável e use
+  nome_status = "revisar".
+
+- Se houver um nome escrito mas não for possível lê-lo:
+  nome_estudante = null e
+  nome_status = "ilegivel".
+
+- Se o campo estiver vazio:
+  nome_estudante = null e
+  nome_status = "ausente".
+
+Preserve o sentido original das respostas.
+
+Corrija erros do OCR somente quando a imagem
+permitir confirmar claramente o conteúdo.
+
+Retorne somente JSON.
+\end{lstlisting}
+
+
+\subsection*{Estrutura informada para As Chaves do Cofre}
+
+Além do prompt, o programa fornece ao modelo uma descrição dos campos presentes na folha de registro:
+
+\begin{lstlisting}[
+    breaklines=true,
+    basicstyle=\ttfamily\scriptsize,
+    columns=fullflexible,
+    keepspaces=true
+]
+1. Qual alternativa você escolheu?
+Opções: A, B, C ou D.
+
+2. Registre a sequência de objetos utilizada.
+Pode conter desenhos, formas geométricas e setas.
+
+3. Explique como você encontrou esse caminho.
+Pode conter texto, desenhos, setas ou estar em branco.
+
+4. Você testou algum caminho que não funcionou?
+Opções: Sim ou Não.
+Pode existir uma representação desenhada.
+
+5. Como você verificou que esse era o menor número
+possível de gavetas?
+Resposta aberta.
+
+6. Qual foi a parte mais difícil da atividade?
+Resposta aberta.
+
+7. Depois de conversar com um colega, você mudou
+sua resposta ou estratégia?
+Opções: Sim ou Não.
+Pode conter justificativa.
+\end{lstlisting}
+
+
+\subsection*{Prompt para a atividade Água para Todos}
+
+Na atividade \textit{Água para Todos}, o Gemini recebe duas imagens do mesmo estudante. A primeira corresponde à folha da questão e do mapa, enquanto a segunda corresponde à folha de registro. O texto extraído pelo Google Document AI é obtido da folha de registro e utilizado como apoio à leitura das imagens.
+
+O prompt utilizado é apresentado a seguir.
+
+\begin{lstlisting}[
+    breaklines=true,
+    basicstyle=\ttfamily\scriptsize,
+    columns=fullflexible,
+    keepspaces=true
+]
+Você está analisando o registro de um estudante
+na atividade Bebras:
+
+"{configuracao['nome']}"
+
+Você recebeu DUAS imagens do mesmo estudante.
+
+IMAGEM 1:
+
+É a folha da questão/mapa.
+
+Ela contém elementos originalmente impressos,
+mas também pode conter anotações feitas pelo estudante,
+como:
+
+- caminhos;
+- setas;
+- riscos;
+- círculos;
+- números;
+- símbolos;
+- marcações;
+- pequenas anotações.
+
+Essas anotações fazem parte do processo
+de resolução do estudante.
+
+IMAGEM 2:
+
+É a folha de registro/resposta.
+
+O texto abaixo foi extraído pelo
+Google Document AI da folha de resposta.
+
+REGRAS:
+
+- Use a imagem como principal fonte.
+- Use o OCR somente como apoio.
+- Diferencie elementos impressos das respostas do estudante.
+- Não invente informações.
+- Não determine a resposta correta da atividade.
+- Não avalie o desempenho do estudante.
+- Não atribua habilidades de Pensamento Computacional.
+
+IMPORTANTE SOBRE DESENHOS E MARCAÇÕES:
+
+- Descreva apenas aquilo que é diretamente visível.
+- Não atribua intenção ao estudante.
+- Não explique por que o estudante fez determinada marcação,
+  a menos que isso esteja explicitamente escrito por ele.
+- Não transforme uma marcação visual em uma conclusão
+  sobre o raciocínio do estudante.
+- Não use expressões como "para verificar",
+  "com o objetivo de", "indicando que" ou semelhantes
+  para explicar a intenção do estudante,
+  a menos que essas palavras tenham sido escritas
+  pelo próprio estudante.
+
+Exemplo:
+
+CORRETO:
+
+"Ponto 4 circulado. Há linhas traçadas entre o ponto 4
+e outros nós."
+
+INCORRETO:
+
+"O estudante circulou o ponto 4 para verificar se todas
+as vilas estavam a duas estradas."
+
+STATUS DAS QUESTÕES:
+
+Use "ok" SOMENTE quando a informação estiver
+diretamente legível ou visualmente identificável
+sem necessidade de interpretação incerta.
+
+Use "revisar" quando:
+
+- alguma parte estiver ambígua;
+- existir mais de uma interpretação possível;
+- uma forma ou símbolo não puder ser identificado
+  com total segurança;
+- apenas parte de uma sequência estiver clara;
+- você sentir necessidade de usar palavras como
+  "parece", "possivelmente", "provavelmente",
+  "aparentemente" ou "talvez".
+
+Se houver dúvida, prefira "revisar" em vez de "ok".
+
+Use "ilegivel" quando houver conteúdo produzido
+pelo estudante, mas não for possível interpretá-lo.
+
+Uma resposta realmente em branco deve ser null.
+Uma resposta em branco pode ter status "ok",
+pois foi possível verificar que o campo está vazio.
+
+NOME DO ESTUDANTE:
+
+- Se estiver claramente legível:
+  nome_status = "ok".
+
+- Se houver uma leitura provável, mas com dúvida:
+  registre a leitura provável e use
+  nome_status = "revisar".
+
+- Se houver um nome escrito mas não for possível lê-lo:
+  nome_estudante = null e
+  nome_status = "ilegivel".
+
+- Se o campo estiver vazio:
+  nome_estudante = null e
+  nome_status = "ausente".
+
+Preserve o sentido original das respostas.
+
+Corrija erros do OCR somente quando a imagem
+permitir confirmar claramente o conteúdo.
+
+Retorne somente JSON.
+
+--- INÍCIO DO OCR ---
+
+{texto_ocr}
+
+--- FIM DO OCR ---
+
+ESTRUTURA DA ATIVIDADE:
+
+{configuracao["descricao"]}
+
+REGRAS:
+
+- Analise as duas imagens em conjunto.
+- Use as imagens como principal fonte.
+- Use o OCR somente como apoio textual.
+- Considere as anotações feitas na folha da questão.
+- Diferencie elementos impressos dos elementos
+  acrescentados pelo estudante.
+- Não invente informações.
+- Não determine a resposta correta.
+- Não avalie o estudante.
+- Não atribua habilidades de Pensamento Computacional.
+- Apenas transcreva e descreva aquilo que foi registrado.
+- Preserve o sentido original das respostas.
+- Uma resposta realmente em branco deve ser null.
+- Não confunda resposta em branco com conteúdo ilegível.
+- Se houver ambiguidade, use status "revisar".
+- Se houver conteúdo ilegível, use status "ilegivel".
+- Se estiver claro, use status "ok".
+- Se um campo não puder ser determinado com segurança,
+  retorne null e continue preenchendo os demais.
+
+Retorne somente JSON.
+\end{lstlisting}
+
+
+\subsection*{Estrutura informada para Água para Todos}
+
+A descrição da folha de registro fornecida ao modelo é a seguinte:
+
+\begin{lstlisting}[
+    breaklines=true,
+    basicstyle=\ttfamily\scriptsize,
+    columns=fullflexible,
+    keepspaces=true
+]
+1. Qual alternativa você escolheu?
+Opções: A, B, C ou D.
+
+2. Mostre como você analisou os caminhos do mapa
+para chegar à resposta.
+Pode conter desenhos, marcações, setas, texto ou símbolos.
+
+3. Quais pontos você chegou a considerar antes
+de escolher a resposta final?
+Podem ser marcados os pontos 1, 2, 3 e 4.
+Também pode ser marcada a opção indicando que
+apenas a resposta final foi considerada.
+
+4. Você testou algum ponto que não funcionou?
+Opções: Sim ou Não.
+Pode haver explicação ou representação do ponto testado.
+
+5. Como você verificou que, com o ponto escolhido,
+todas as vilas ficam a no máximo duas estradas
+de um centro de distribuição?
+Pode conter texto, desenhos ou marcações.
+
+6. Qual foi a parte mais difícil da atividade?
+Resposta aberta.
+
+7. Depois de conversar com um colega, você mudou
+sua resposta ou estratégia?
+Opções: Sim ou Não.
+Pode conter justificativa.
+\end{lstlisting}
+
+
+\subsection*{Estrutura da saída}
+
+A saída do Gemini é restringida por um esquema JSON definido
+previamente para cada atividade. O esquema determina os campos que
+podem ser retornados e seus respectivos tipos de dados.
+
+Em ambas as atividades, a estrutura contém a identificação da
+atividade, o nome do estudante, o estado de leitura do nome, o ano e
+os campos correspondentes às sete questões da folha de registro.
+
+O campo \texttt{nome\_status} pode assumir os valores
+\texttt{ok}, \texttt{revisar}, \texttt{ilegivel} ou
+\texttt{ausente}. Para as questões, são utilizados os estados
+\texttt{ok}, \texttt{revisar} e \texttt{ilegivel}.
+
+O valor \texttt{null} pode ser utilizado quando um campo está em branco
+ou quando determinada informação não pode ser preenchida com segurança,
+conforme as regras estabelecidas no prompt. Os campos específicos
+dependem do tipo de questão e podem armazenar alternativas, textos,
+listas, valores booleanos ou descrições de representações produzidas
+pelo estudante.
+
+O programa solicita ao modelo uma resposta com o tipo
+\texttt{application/json} e utiliza o esquema correspondente à
+atividade para restringir a estrutura retornada. Após o processamento,
+o JSON é normalizado e seus dados são utilizados para gerar a planilha
+empregada na etapa de conferência.
