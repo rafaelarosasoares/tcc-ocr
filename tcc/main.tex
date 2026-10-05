@@ -57,7 +57,7 @@
 %Da resolução à análise: um processo para avaliação qualitativa do pensamento computacional com desafios Bebras}
 \newcommand{\MyForeignTitle}{Qualitative Assessment of Computational Thinking in Elementary Education: A Process Based on Bebras Challenges and the Analysis of Problem-Solving Strategies with Generative AI Support}
 \newcommand{\MyAuthor}{Rafaela da Rosa Soares}
-\newcommand{\MyFootnote}{Autor: Graduando no \MyCourse~ pela \MyInstitution.}
+\newcommand{\MyFootnote}{Autor: Graduanda no \MyCourse~ pela \MyInstitution.}
 \newcommand{\MyLocation}{Santa Maria, RS}
 
 \newcommand{\MyDescriptionText}{Trabalho Final de Graduação apresentado ao \MyCourse~ da \MyInstitution~ (UFSM, RS), como requisito parcial para obtenção do grau de \textbf{\MyDegree}.}
@@ -69,7 +69,7 @@
 \newcommand{\MyFirstExaminer}{Silvia de Castro Bertagnolli (IFRS)}
 \newcommand{\MySecondExaminer}{Leandro Krug Wives (UFRGS)}
 \newcommand{\MyYear}{2026}
-\newcommand{\MyPresentationDate}{.. de ... de \MyYear}
+%\newcommand{\MyPresentationDate}{.. de ... de \MyYear}
 
 
 
@@ -239,13 +239,6 @@
         {Ç}{{\c{C}}}1
 }
 
-\lstdefinestyle{prompt}{
-    basicstyle=\ttfamily\small,
-    breaklines=true,
-    frame=single,
-    columns=fullflexible
-}
-
 %\setlength{\cftchapternumwidth}{20mm}
 %\setlength{\cftsectionnumwidth}{20mm}
     
@@ -285,7 +278,7 @@
 \tipotrabalho{Trabalho de Graduação}
 % O preambulo deve conter o tipo do trabalho, o objetivo, 
 % o nome da instituição e a área de concentração 
-\preambulo{Modelo canônico de trabalho monográfico acadêmico em conformidade com as normas ABNT apresentado à comunidade de usuários.}
+\preambulo{\MyDescriptionText}
 
 
 % ---
@@ -495,7 +488,7 @@
        \begin{center}
 
       \SingleSpacing
-      \textbf{Aprovado em \MyPresentationDate:}
+%      \textbf{Aprovado em \MyPresentationDate:}
       \vspace{2.0\baselineskip}
 
 
@@ -531,12 +524,7 @@
 \begin{KeepFromToc}
 
 \begin{center}
-\section*{Agradecimentos}
 \end{center}
-
-Aqui vai um texto dirigido às pessoas ou entidades que contribuíram de maneira relevante para a elaboração do trabalho.
-
-
 
 \newpage
 
@@ -582,13 +570,14 @@ O Pensamento Computacional tem assumido papel crescente na Educação Básica, e
 % resumo em inglês
 \renewcommand{\resumoname}{Abstract}
 \begin{resumoumacoluna}
- \begin{otherlanguage*}{english}
-\textit{Abstract translated to english}
- %\vspace{\onelineskip}
- 
-   \noindent
-  \textit{ \textbf{Keywords}: keyword1, keyword2, keyword3; keyword4; keyword5, keyword6.}
- \end{otherlanguage*}  
+\begin{otherlanguage*}{english}
+
+Computational Thinking has assumed an increasingly important role in Basic Education, encompassing problem-solving skills such as abstraction, decomposition, pattern recognition, algorithmic thinking, and solution evaluation. Assessing these skills, however, is challenging, especially when evaluation relies primarily on the final outcome of an activity, since a correct or incorrect answer alone does not reveal the strategies used, the difficulties encountered, the attempts made, or changes in reasoning during problem solving. This study proposes a qualitative approach to investigate how 8th-grade students mobilize Computational Thinking skills while solving problems. Bebras challenges are used because they provide structured computing-related problem-solving tasks that are generally independent of prior knowledge of a programming language or environment. The activities are accompanied by recording sheets designed to make aspects of the problem-solving process observable, including justifications, representations, attempts, verification procedures, and changes in strategy, while also encouraging students to reflect on their own reasoning. The study is conducted at a municipal school in Santa Maria, Rio Grande do Sul, Brazil, and combines an initial diagnostic stage with a reactive stage, in which subsequent activities are selected based on evidence observed in previous applications. Because this type of assessment produces richer and more numerous qualitative records than isolated objective answers, the study also investigates a computational workflow to support data digitization and organization using optical character recognition and generative artificial intelligence, while retaining the original records for verification and human interpretation. The study aims to contribute to the discussion of Computational Thinking assessment approaches that consider the problem-solving process and to the development of a reusable workflow for supporting qualitative analysis in school contexts.
+
+\noindent
+\textbf{Keywords}: Computational Thinking; Bebras; Qualitative assessment; Problem-solving strategies; Generative artificial intelligence.
+
+\end{otherlanguage*}
 \end{resumoumacoluna}
 
 % ]  				% FIM DE ARTIGO EM DUAS COLUNAS
