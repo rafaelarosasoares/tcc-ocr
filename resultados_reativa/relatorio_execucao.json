@@ -1,0 +1,379 @@
+{
+  "entrada": "/Users/enzoveroneze/tcc-ocr/entrada_reativa",
+  "registros": [
+    {
+      "atividade": "sinais_de_transito",
+      "codigo": "A001",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/sinais_de_transito/A001_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "7f1257cd78ce3396f0cc09da0604b869a3f246eab4de759ba88617935f167090"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "sinais_de_transito",
+      "codigo": "A002",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/sinais_de_transito/A002_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "9daba6911a5b27d39e876899aec47b97e28e618bde7ff49ca7b48d6994ac37ae"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "sinais_de_transito",
+      "codigo": "A003",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/sinais_de_transito/A003_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "bb717805fde3a5e38a8794aad8aaa4c9cb67c466ccbdcf832d804f01a0ddb342"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "sinais_de_transito",
+      "codigo": "A004",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/sinais_de_transito/A004_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "4a876da2a2d4bac2467828c7d8acdb0e58561cf2edbf1cfe81933d3cce1c5e68"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "sinais_de_transito",
+      "codigo": "A005",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/sinais_de_transito/A005_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "97ded65408d6835e46b23a8797a5591872e7c822a9342cef67a0bfca1f748bfa"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A001",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A001_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "41d9c6ca2202452198faae965f8729b7b6153dc53a822bac6a66b4505c24beef"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A002",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A002_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "d958e4080a137f56bbc4f1eeb3e1778878a643436b6a48163fd5787ea7849224"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A003",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A003_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "ffb196d514335c5c1e87662caaec7725c05d1f74840e8f3f404ea7ba49d15832"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A004",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A004_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "8615c9b8b1be4969b55e04e2472867c8b5c42ddd50720cd3c3fde18e8aced101"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A005",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A005_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "2340f6ff6fab7bb018a5c805159e687fc334a1732edd60d764d19c4a42d65d26"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A006",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A006_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "164664726705a2b247a6e1c236308b9648c9a42b5853f6cbc859592c4a7ea293"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A007",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A007_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "a493108e431d7f8f41bd28ffa0b62a1cc9cafa7ed981ce626a43da6caf7d9580"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A008",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A008_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "e45ae448a92618aee8f40b05b09492535dd00f39933b3d25c211d6d0f899b379"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A009",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A009_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "5a0ef3f0d123136fdd360e30cf10226058ff20d7c829d20a602351387c6a0842"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A010",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A010_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "3d8afffff3e889ea5f24b3fcea210dca2e946077ad082d30266796c2d0cbf8b1"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A011",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A011_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "482973f2bdbb2ac513c8a9594029ff9c5e2808975e99d3290fffb6c69c062b47"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A012",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A012_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "a73abed9365b489e0369f0f4e5d13280fc39a50935d05c4c870a02bca7adcf35"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A013",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A013_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "f5a1156e8d6a779acc241e51b9acea80fcde2c5114a44531d412a98d84f0e600"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A014",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A014_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "263025494ba904279a1adbfd0af2d774a4c0081b2c1d1957265e5fa194b4dd2e"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A015",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A015_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "ceb799fe98eb0dc012fb1329a2cea4dbdc6fde5e6cae084a54ebf3e20916a273"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A016",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A016_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "6b6120c523b2de6e971b873068691ac2d6b49a3d216a3c28e2f831be491e1d29"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A017",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A017_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "858585ba81b5f975ff806a6be44948c733898219420c406336ea5bcd2cb8df12"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A018",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A018_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "cde73e015bcca8be8aa45bdc0780b98147eb6ebc7315a8ee52432984f61697b9"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "processado",
+      "etapa": "concluido",
+      "tentativa": 1
+    }
+  ],
+  "avisos": [
+    "Atividade sem pasta: chaves_do_cofre",
+    "Atividade sem pasta: agua_para_todos"
+  ],
+  "criado_em": "2026-11-21T20:45:40+00:00",
+  "estado": "concluido",
+  "config_ocr": {
+    "processador": "projects/project-5e3bf1fd-47b5-442e-90d/locations/us/processors/15f792d10b41ff08",
+    "qualidade_imagem": true,
+    "versao_ocr": 1
+  },
+  "assinaturas": {
+    "chaves_do_cofre": "70b8111f45748860c9fead09ecc91383e72480a43a1125bfa62e756220b6cf99",
+    "agua_para_todos": "e42f6aeed29fc336da8e9ea0616122291387124d345904d05d31c10e3db1d11b",
+    "sinais_de_transito": "bc0a6915400f08b721fa0f1586681e7843b6959a1c681b47c235c80d4b43e03d",
+    "dinheiro_de_castor": "41d92dd33050bbbf6ec291fc3ef22d2a50985dfb779dd09c8d396cdeba023929"
+  },
+  "modelo": "gemini-2.5-flash",
+  "versao": "3.0",
+  "resumo": {
+    "processado": 23,
+    "reaproveitado": 0,
+    "erro": 0,
+    "invalido": 0,
+    "pendente": 0,
+    "processando": 0
+  },
+  "atualizado_em": "2026-11-21T20:49:32+00:00",
+  "planilha": "concluida"
+}

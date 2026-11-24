@@ -1,0 +1,54 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": "Luisa Fortrura",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": [
+      "Circulo",
+      "pentágono",
+      "triângulo",
+      "estrela",
+      "chave"
+    ],
+    "observacao": "Há palavras 'almogna' e 'lua' escritas abaixo de 'pentágono' e 'estrela' respectivamente, que podem indicar alternativas ou correções.",
+    "status": "revisar"
+  },
+  "q3": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_caminho": true,
+    "representacao": "FUI PELA OUTRA ORGAN DA",
+    "status": "revisar"
+  },
+  "q5": {
+    "resposta": "DEPOIS E FIZ O CAMINHO 5",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "ENTENDER DE PRIMEIRA,",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A010",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A010_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:29:59",
+    "hashes_entrada": {
+      "resposta": "3b6a9e9bd5a4dac6a376f67959f45246c995d4adccb63ad76702f680c65088c6"
+    }
+  }
+}

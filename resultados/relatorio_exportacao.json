@@ -1,0 +1,37 @@
+{
+  "criado_em": "2026-11-11T03:50:45+00:00",
+  "max_revisar_por_registro": 1,
+  "criterio": "Exclui o registro da atividade quando mais que o limite de Q1 a Q7 têm status revisar. Não altera os JSONs ou os status da extração.",
+  "exportados": 32,
+  "total_excluidos": 3,
+  "por_atividade": {
+    "chaves_do_cofre": {
+      "recebidos": 18,
+      "exportados": 17,
+      "excluidos": 1
+    },
+    "agua_para_todos": {
+      "recebidos": 17,
+      "exportados": 15,
+      "excluidos": 2
+    }
+  },
+  "excluidos": [
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A010",
+      "questoes_revisar": 2
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A003",
+      "questoes_revisar": 2
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A004",
+      "questoes_revisar": 2
+    }
+  ],
+  "sha256_planilha": "fdd7bb1e4ae13c57beed9cb6bace3d3b18af3ff678f196acefa3bf526d557297"
+}

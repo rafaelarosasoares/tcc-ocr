@@ -1,0 +1,52 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": "BIANCA MACHADO",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "A",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": [
+      "desenho de cadeado ou buraco de fechadura",
+      "desenho de estrela",
+      "desenho de lua crescente"
+    ],
+    "observacao": null,
+    "status": "ok"
+  },
+  "q3": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_caminho": false,
+    "representacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "ACHANDO AS FIGURAS",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "TENTAR ACHAR A CHAVE",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A008",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A008_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:23:27",
+    "hashes_entrada": {
+      "resposta": "9152f2fe4e9e12ab8a95c4dfee2ffebdd4e382decb67c6e03fa054c63cbf1270"
+    }
+  }
+}

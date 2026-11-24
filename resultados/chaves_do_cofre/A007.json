@@ -1,0 +1,48 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": "GUILHERME",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": null,
+    "observacao": null,
+    "status": "revisar"
+  },
+  "q3": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_caminho": false,
+    "representacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": null,
+    "status": "ilegivel"
+  },
+  "q6": {
+    "resposta": "CHEGAR NA CONCLUSÃO / RESPOSTA",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A007",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A007_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:23:16",
+    "hashes_entrada": {
+      "resposta": "39afb80320811985d4ab2ea10b96e5d541ddac3263b759e85f828947ad14dd65"
+    }
+  }
+}

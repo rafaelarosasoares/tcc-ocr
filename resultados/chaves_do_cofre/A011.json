@@ -1,0 +1,53 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": "Rafaela Fracari",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": [
+      "círculo",
+      "casa/seta para cima",
+      "triângulo para baixo",
+      "estrela"
+    ],
+    "observacao": null,
+    "status": "ok"
+  },
+  "q3": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_caminho": false,
+    "representacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "TESTANDO OUTROS CAMINHOS.",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "NAO TEVE UMA PARTE MAIS DIFICIL.",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A011",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A011_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:30:09",
+    "hashes_entrada": {
+      "resposta": "28738c466532811ad763545fd0647ef361f76fca86cf31fd1cb56acf3bd69da2"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "atividade": "Água para todos",
+  "nome_estudante": "Anna Liah",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "representacao": "Desenho de uma rede de pontos interligados por linhas. Um ponto central tem três linhas saindo dele. Outros pontos estão conectados em sequência, formando uma estrutura de rede.",
+    "status": "ok"
+  },
+  "q3": {
+    "pontos_considerados": [
+      1,
+      3
+    ],
+    "somente_resposta_final": false,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_ponto": true,
+    "explicacao": "Porque estava distante",
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "O ponto dois ficou mais no centro e praticamente a mesma distância dos pontos de distribuição",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "Achar as pontes",
+    "status": "revisar"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A013",
+  "codigo_atividade": "agua_para_todos",
+  "arquivo_resposta": "A013_resposta.jpg",
+  "arquivo_questao": "A013_questao.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:25:34",
+    "hashes_entrada": {
+      "resposta": "e131ff468ec9fe63f80e87b4f657ade7a28ccf7b30cfc2187c491bdb3335d34a",
+      "questao": "80cb6ca99dcee1059736e98debac2a4b08c9a350ad648566ed6f2f882921b1f2"
+    }
+  }
+}

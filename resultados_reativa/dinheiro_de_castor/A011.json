@@ -1,0 +1,87 @@
+{
+  "atividade": "Dinheiro de castor",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "combinacoes_testadas": [
+      "Todas"
+    ],
+    "status": "ok"
+  },
+  "q3": {
+    "comparacao": "Quatro grades 3x3 desenhadas. Na primeira, os quadrados superior esquerdo e inferior direito estão preenchidos. Na segunda, os quadrados superior direito e inferior esquerdo estão preenchidos. Na terceira, os quadrados do meio da linha esquerda e do meio da linha direita estão preenchidos. Na quarta, os quadrados do meio da linha superior e do meio da linha inferior estão preenchidos.",
+    "status": "ok"
+  },
+  "q4": {
+    "testou_combinacao": true,
+    "combinacao_ou_explicacao": "Testei todas, mas sempre seguiu alguma repetição, menos a \"B\"",
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "Porque só repetiu.",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "Não sei repote",
+    "status": "ok"
+  },
+  "q7": {
+    "resposta": "Confusão",
+    "status": "ok"
+  },
+  "q8": {
+    "mudou_resposta_ou_estrategia": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "_motivos_revisao": {},
+  "_processamento": {
+    "assinatura": "0423304f5c74c57b23c4bfc1b17036e600b755a644cae172bc52ae9d670b34a7",
+    "hashes_entrada": {
+      "resposta": "482973f2bdbb2ac513c8a9594029ff9c5e2808975e99d3290fffb6c69c062b47"
+    },
+    "assinatura_interpretacao": "41d92dd33050bbbf6ec291fc3ef22d2a50985dfb779dd09c8d396cdeba023929",
+    "config_ocr": {
+      "processador": "projects/project-5e3bf1fd-47b5-442e-90d/locations/us/processors/15f792d10b41ff08",
+      "qualidade_imagem": true,
+      "versao_ocr": 1
+    },
+    "modelo": "gemini-2.5-flash",
+    "versao": "3.0",
+    "processado_em": "2026-11-21T20:48:33+00:00"
+  },
+  "_qualidade_imagens": {
+    "resposta": [
+      {
+        "pagina": 1,
+        "qualidade": 0.8390611410140991,
+        "defeitos": [
+          {
+            "tipo": "quality/defect_document_cutoff",
+            "confianca": 1.0
+          },
+          {
+            "tipo": "quality/defect_glare",
+            "confianca": 0.7143158316612244
+          },
+          {
+            "tipo": "quality/defect_text_cutoff",
+            "confianca": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "codigo_aluno": "A011",
+  "codigo_atividade": "dinheiro_de_castor",
+  "_fontes": {
+    "resposta": {
+      "local": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A011_resposta.jpg",
+      "drive": null
+    }
+  },
+  "arquivo_resposta": "A011_resposta.jpg",
+  "_avisos_entrada": []
+}

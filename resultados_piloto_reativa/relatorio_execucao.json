@@ -1,0 +1,62 @@
+{
+  "entrada": "/Users/enzoveroneze/tcc-ocr/entrada_piloto",
+  "registros": [
+    {
+      "atividade": "sinais_de_transito",
+      "codigo": "A001",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_piloto/sinais_de_transito/A001_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "915ed75560002cec1fa88cc809970b9706a6cee4ea204fa7befdb17938b4191a"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "reaproveitado",
+      "etapa": "concluido"
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A001",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_piloto/dinheiro_de_castor/A001_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "ae3a5ac18f7e28f7bb000ac69188e55aeb506dd4791cfc21fbeda84c1eb3f9b4"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "reaproveitado",
+      "etapa": "concluido"
+    }
+  ],
+  "avisos": [
+    "Atividade sem pasta: chaves_do_cofre",
+    "Atividade sem pasta: agua_para_todos"
+  ],
+  "criado_em": "2026-11-21T20:35:19+00:00",
+  "estado": "concluido",
+  "config_ocr": {
+    "processador": "projects/project-5e3bf1fd-47b5-442e-90d/locations/us/processors/15f792d10b41ff08",
+    "qualidade_imagem": true,
+    "versao_ocr": 1
+  },
+  "assinaturas": {
+    "chaves_do_cofre": "70b8111f45748860c9fead09ecc91383e72480a43a1125bfa62e756220b6cf99",
+    "agua_para_todos": "e42f6aeed29fc336da8e9ea0616122291387124d345904d05d31c10e3db1d11b",
+    "sinais_de_transito": "bc0a6915400f08b721fa0f1586681e7843b6959a1c681b47c235c80d4b43e03d",
+    "dinheiro_de_castor": "41d92dd33050bbbf6ec291fc3ef22d2a50985dfb779dd09c8d396cdeba023929"
+  },
+  "modelo": "gemini-2.5-flash",
+  "versao": "3.0",
+  "resumo": {
+    "processado": 0,
+    "reaproveitado": 2,
+    "erro": 0,
+    "invalido": 0,
+    "pendente": 0,
+    "processando": 0
+  },
+  "atualizado_em": "2026-11-21T20:35:19+00:00",
+  "planilha": "concluida"
+}

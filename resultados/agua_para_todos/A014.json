@@ -1,0 +1,50 @@
+{
+  "atividade": "Água para todos",
+  "nome_estudante": "JÚLIA",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "representacao": "Desenho de um grafo simplificado com nós e arestas. Os nós 1, 2, 3 e 4 estão circulados, sendo o nó 2 com um círculo maior. Há linhas traçadas entre alguns nós.",
+    "status": "ok"
+  },
+  "q3": {
+    "pontos_considerados": null,
+    "somente_resposta_final": true,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_ponto": false,
+    "explicacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "PORQUE O PONTO 2 É O PONTO MAIS CENTRAL.",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "ACHAR O PONTO",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A014",
+  "codigo_atividade": "agua_para_todos",
+  "arquivo_resposta": "A014_resposta.jpg",
+  "arquivo_questao": "A014_questao.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:25:44",
+    "hashes_entrada": {
+      "resposta": "2bb9cbf5d03656be21203c7d019a3ca7f126cca9722dbe9ecc4cb34f8ea68540",
+      "questao": "20f0ddf93cd6c0ae743a83cb9d9f64cc04cccd215b444087786ab2e4907e20b8"
+    }
+  }
+}

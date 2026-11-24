@@ -1,0 +1,531 @@
+{
+  "entrada": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe",
+  "registros": [
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A001",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A001_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "7fe830587070f0207ea76df61aba17ff81dffb30dd67221007761e9be4d4e878"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A002",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A002_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "cbfe51669339b85e1197c7f858dc3ceaeaff1bd2172de1e63ef52ac1cf7c3e72"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A003",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A003_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "a91bcd4ef3321a4c38b1a68d8c7de4ffc17513d32f0d3df44308654d7e80e736"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A004",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A004_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "5b2adce6dcd4992a46c9ce55bbb32db24951cd26a7c2eae94299b168a7b7ca29"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A005",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A005_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "7d2c07b55715d764063670918672dc5c9c166a01597a3654a2999772e182f1a0"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A006",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A006_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "605157117592774424455c112cbbbd6102a246aece24b9f73d9374ab1497b9ad"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A007",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A007_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "39afb80320811985d4ab2ea10b96e5d541ddac3263b759e85f828947ad14dd65"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A008",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A008_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "9152f2fe4e9e12ab8a95c4dfee2ffebdd4e382decb67c6e03fa054c63cbf1270"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A009",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A009_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "16abb7ecf603908c78aa09dc70849bb5375feb7c1a1333215a89dee8f3ed7d2c"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A010",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A010_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "3b6a9e9bd5a4dac6a376f67959f45246c995d4adccb63ad76702f680c65088c6"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A011",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A011_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "28738c466532811ad763545fd0647ef361f76fca86cf31fd1cb56acf3bd69da2"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A012",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A012_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "c03231a2faa5912b951cb463899147b95f113356bf87ab591d44e312ca237464"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A013",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A013_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "1b923b6d228203353ff2ee9a101046d9cfd3b047d18c36fd54900bd5200223ab"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A014",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A014_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "486b5271df914f3f43c0d47b331ba89f96cae70bd5a6f005c12c05cfe45317cf"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A015",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A015_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "dbfa8cb108681094ab1549979e9c39f6a3dba9e8c5df1bc9469bad34a2667d4a"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A016",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A016_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "751919549ccb3458fb43763d0abaf5aae032af2b79fed3ddf7001fed91d42c20"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A017",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A017_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "8eb9fefd20644df1babce28303e66c82056923ed79490952d03b6639cc8b5ac5"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A018",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A018_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "92f717f71200e40e407c7a4a9296e171e34e7b2cec548ab5d376b4fb04e4232b"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A001",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A001_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A001_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "64714003a94e344e3cc2c9be6cb4208c19a73f550e082dfd5ffba3539db63236",
+        "resposta": "b7d6194e501420cce5343a84bf3466d6bad64c67fb07c575cc056179b383dded"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A002",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A002_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A002_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "1f2d1a61cf2daa9b5b7995a6ef65873e747b9b611023313de3f43e3d539e96ac",
+        "resposta": "d2b7f62cf83f7d08b7859fb4d7b189d927cfca395563fda86ac034b52ce664a2"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A003",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A003_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A003_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "8dfd01944c0abac17acad7ed94153aa27f20c7e6a04a43c1974aef33179126d3",
+        "resposta": "81b79baf9438cecf9a7459593150c7944f79d0d76eb31b67791caed8d9ca4ce6"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A004",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A004_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A004_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "73c204130e738caa19d043e1fb267c531399f82b79053b404fab79e007ae3925",
+        "resposta": "6c6dbeabcc394139ad6d1c050976527ddda8b41648059b200d8ecc418195d5e2"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A005",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A005_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A005_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "734b63e5dba9f562c4c5ce677b5d432aecb8b015972bfd9b893edd9a9aafb108",
+        "resposta": "389d1efa23738c8237876163f4fee9a6ba043b8cf0446405900f8c6fc1eef552"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A006",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A006_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A006_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "2bb2afe4f38b12dbe8b963a65fe610940dee5cc02a6fcbae61b77136e11ab60b",
+        "resposta": "d9a81f722b7c8c44da3ae628578e3b16148e251b106612c3f5e6e6193da3e525"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A007",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A007_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A007_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "b2f274485fbddaaa04f4ef4e90276d7804760ace052e2b43afcf5839af14b0cf",
+        "resposta": "c1bc028b12195414a6e2926a57d451e753ed5318bd4b62eeafc4767fecf2084c"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A008",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A008_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A008_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "96b52a5a8561d1c36289e42b4a04c1a3635d5bc83e4da62030b32b01dd790500",
+        "resposta": "4aa501ee73d7dae54e6d0768d8500410492ba833a74aba87b1e3dda5de02f3e4"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A009",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A009_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A009_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "c34c2f8d0a1d68eb104f195d549c20d5632d002d05f6ebf6846633c768d80beb",
+        "resposta": "ccc41eddda829409dad42a0ac0ec6b5c6587b1ed7a23a9512da55c350fee7130"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A010",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A010_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A010_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "76bd38dd37416aa03cb99232dbc656e78559ea3f8be1c5e660cc066b3affcc4e",
+        "resposta": "a1efb16da4ca1b814ccd0c6a4dbcae6e572e5bed6c56cbe76c7fa10989bbd364"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A011",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A011_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A011_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "83116538f4a5c405b12abac0a8f30967170efbebfca49f65ca447ecfa01b7a2e",
+        "resposta": "506bee2c44ba0783e4841e05c868b328e21393baf55a384854a1c34c43f3228f"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A012",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A012_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A012_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "3b3dbb9588bd48ffedb5a0fa789627601202bad24e12e75b3aeafb3e5ac2f82a",
+        "resposta": "e9429027d85dfb1f2eb11693a5a2a40caf344db34e2b80a15a938dbaad75c4d3"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A013",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A013_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A013_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "80cb6ca99dcee1059736e98debac2a4b08c9a350ad648566ed6f2f882921b1f2",
+        "resposta": "e131ff468ec9fe63f80e87b4f657ade7a28ccf7b30cfc2187c491bdb3335d34a"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A014",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A014_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A014_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "20f0ddf93cd6c0ae743a83cb9d9f64cc04cccd215b444087786ab2e4907e20b8",
+        "resposta": "2bb9cbf5d03656be21203c7d019a3ca7f126cca9722dbe9ecc4cb34f8ea68540"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A015",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A015_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A015_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "6e8e96c5d474655eb3989669ae7129a9596fc28304bee7ca09c2136fb83c7f0b",
+        "resposta": "c24f15f83b67a835d128cad9681552d7f06e9476d7c91bb6bf4185aeade278d0"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A016",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A016_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A016_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "7108ff74a6bb90cdaa536e331777eeb2a5f6c0df4677a98ca829f860d963c987",
+        "resposta": "efbfbdf24821d475a9f6dea015cdbbd7c855e4e3242825356413a829a093795d"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A017",
+      "arquivos": {
+        "questao": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A017_questao.jpg",
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A017_resposta.jpg"
+      },
+      "hashes": {
+        "questao": "e2e442d7c23a485629b5fc8efffb2c64131f37fb7629f4e98113f5605523f30c",
+        "resposta": "8b7e57031d7e28bc94b080dc29ab1f39446ee76ce0c4936c94e68ec3de2a1eae"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    }
+  ],
+  "avisos": [],
+  "criado_em": "2026-11-11T03:25:47+00:00"
+}

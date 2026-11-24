@@ -1,0 +1,23 @@
+{
+  "texto": "FOLHA DE REGISTRO\nAidada Dahene. Minhaira de castor\n1. Qual alternativa você escolheu?\nA() B(X) C() D()\n2. Quais combinações de quadradinhos você testou?\nTiedas\n3. Mostre como você comparou as quatro cédulas. Use sua criatividade: você pode responder com marcaçõ\nfolha.\n4. Você testou alguma combinação que não funcionou?\n(x) Sim () Não\nCaso tenha testado, mostre e explique essa combinação:\nTestoi\nJuedar mas sempre sequior alguna\nrepetição, manals\n\"\"\n5. Por que essa combinação não conseguia diferenciar todas as cédulas?\nPorque se repation.\n6. Como você verificou que os dois quadradinhos escolhidos eram suficientes?\nnão sq repote\n7. Qual foi a parte mais difícil da atividade?\nGenfusia\n8. Depois de conversar com um colega, você mudou sua resposta ou estratégia?\nNão () Sim\nO que fez você mudar?\n",
+  "paginas": [
+    {
+      "pagina": 1,
+      "qualidade": 0.8390611410140991,
+      "defeitos": [
+        {
+          "tipo": "quality/defect_document_cutoff",
+          "confianca": 1.0
+        },
+        {
+          "tipo": "quality/defect_glare",
+          "confianca": 0.7143158316612244
+        },
+        {
+          "tipo": "quality/defect_text_cutoff",
+          "confianca": 0.5
+        }
+      ]
+    }
+  ]
+}

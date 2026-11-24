@@ -1,7 +1,7 @@
 {
   "atividade": "As chaves do cofre",
-  "nome_estudante": "Nicolas",
-  "nome_status": "ok",
+  "nome_estudante": null,
+  "nome_status": "ausente",
   "ano": "8º",
   "q1": {
     "alternativa": "B",
@@ -9,10 +9,11 @@
   },
   "q2": {
     "sequencia": [
-      "diamante",
-      "seta",
-      "coração",
-      "seta",
+      "Objeto inicial",
+      "desenho de cadeado/fechadura",
+      "17",
+      "desenho de chave",
+      "GG",
       "chave"
     ],
     "observacao": null,
@@ -23,16 +24,16 @@
     "status": "ok"
   },
   "q4": {
-    "testou_caminho": false,
+    "testou_caminho": true,
     "representacao": null,
     "status": "ok"
   },
   "q5": {
-    "resposta": "PORQUE EU CONTEI",
+    "resposta": "PORQUE NÃO TICHA OUTRA",
     "status": "ok"
   },
   "q6": {
-    "resposta": "CHEGAR COM UM NUMERO MENOR",
+    "resposta": "O COFRE.",
     "status": "ok"
   },
   "q7": {
@@ -46,9 +47,9 @@
   "_processamento": {
     "versao": "2.1",
     "modelo": "gemini-2.5-flash",
-    "processado_em": "2026-10-02T00:44:18",
+    "processado_em": "2026-11-10T23:22:39",
     "hashes_entrada": {
-      "resposta": "e05becaec7ef8700447b8d8362e4aaa36a4f639c5a9a0d463269f300b8e7ea01"
+      "resposta": "5b2adce6dcd4992a46c9ce55bbb32db24951cd26a7c2eae94299b168a7b7ca29"
     }
   }
 }

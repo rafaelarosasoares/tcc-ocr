@@ -1,0 +1,23 @@
+{
+  "texto": "CHA DE REGISTRO\nLavidade Bebras Dinheiro da anata\n1. Qual alternativa você escolheu?\nA()BC() D()\n2. Quais combinações de quadradinhos você testou?\nVarias\n3. Mostre como você comparou as quatro cédulas. Use sua criatividade: você pode responder com marcaçõe\nfolha.\nas Quanradinhos Pintoldos e\nVENDOS\nM\nBLANCO\nの\n4. Você testou alguma combinação que não funcionou?\n() Sim\nNão\nCaso tenha testado, mostre e explique essa combinação:\n5. Por que essa combinação não conseguia diferenciar todas as cédulas?\n6. Como você verificou que os dois quadradinhos escolhidos eram suficientes?\nporquue\nena o\nONICO\n7. Qual foi a parte mais difícil da atividade?\nque\nFecheva\n8. Depois de conversar com um colega, você mudou sua resposta ou estratégia?\nNão () Sim\nO que fez você mudar?\n",
+  "paginas": [
+    {
+      "pagina": 1,
+      "qualidade": 0.929095447063446,
+      "defeitos": [
+        {
+          "tipo": "quality/defect_document_cutoff",
+          "confianca": 1.0
+        },
+        {
+          "tipo": "quality/defect_glare",
+          "confianca": 0.7593241930007935
+        },
+        {
+          "tipo": "quality/defect_text_cutoff",
+          "confianca": 0.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "atividade": "Água para Todos",
+  "nome_estudante": "MIGUEL POLES",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "D",
+    "status": "ok"
+  },
+  "q2": {
+    "representacao": "O estudante circulou o número 4 no mapa. Ele também circulou o ponto 4 e traçou linhas e setas a partir dele para outros nós. Vários nós no mapa foram circulados e alguns foram riscados. O estudante escreveu números (1 ou 2) ao lado de quase todos os nós, indicando a distância em estradas a partir do ponto 4. O texto 'NO MAPA' foi escrito na folha de registro.",
+    "status": "ok"
+  },
+  "q3": {
+    "pontos_considerados": [
+      4
+    ],
+    "somente_resposta_final": false,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_ponto": false,
+    "explicacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "Pois ele atende muitas vilas. Os CONDICIONADOS tinham centro do lado.",
+    "status": "revisar"
+  },
+  "q6": {
+    "resposta": "ACHAR A RESPOSTA",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A017",
+  "codigo_atividade": "agua_para_todos",
+  "arquivo_resposta": "A017_resposta.jpg",
+  "arquivo_questao": "A017_questao.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:26:27",
+    "hashes_entrada": {
+      "resposta": "8b7e57031d7e28bc94b080dc29ab1f39446ee76ce0c4936c94e68ec3de2a1eae",
+      "questao": "e2e442d7c23a485629b5fc8efffb2c64131f37fb7629f4e98113f5605523f30c"
+    }
+  }
+}

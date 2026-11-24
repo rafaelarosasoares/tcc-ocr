@@ -1,0 +1,79 @@
+{
+  "atividade": "Sinais de Trânsito",
+  "q1": {
+    "simbolo": null,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "q2": {
+    "texto": null,
+    "desenho": null,
+    "status": "ok"
+  },
+  "q3": {
+    "testou_significado": null,
+    "hipotese_descartada": null,
+    "como_percebeu": null,
+    "status": "ok"
+  },
+  "q4": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "_motivos_revisao": {},
+  "_processamento": {
+    "assinatura": "3be2fa26eac0d8a68a438b78f72d144ddd850f41a797a6c47725f0f009ecdb04",
+    "hashes_entrada": {
+      "resposta": "4a876da2a2d4bac2467828c7d8acdb0e58561cf2edbf1cfe81933d3cce1c5e68"
+    },
+    "assinatura_interpretacao": "bc0a6915400f08b721fa0f1586681e7843b6959a1c681b47c235c80d4b43e03d",
+    "config_ocr": {
+      "processador": "projects/project-5e3bf1fd-47b5-442e-90d/locations/us/processors/15f792d10b41ff08",
+      "qualidade_imagem": true,
+      "versao_ocr": 1
+    },
+    "modelo": "gemini-2.5-flash",
+    "versao": "3.0",
+    "processado_em": "2026-11-21T20:46:43+00:00"
+  },
+  "_qualidade_imagens": {
+    "resposta": [
+      {
+        "pagina": 1,
+        "qualidade": 0.9880294799804688,
+        "defeitos": [
+          {
+            "tipo": "quality/defect_document_cutoff",
+            "confianca": 1.0
+          },
+          {
+            "tipo": "quality/defect_glare",
+            "confianca": 0.642347514629364
+          },
+          {
+            "tipo": "quality/defect_text_cutoff",
+            "confianca": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "codigo_aluno": "A004",
+  "codigo_atividade": "sinais_de_transito",
+  "_fontes": {
+    "resposta": {
+      "local": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/sinais_de_transito/A004_resposta.jpg",
+      "drive": null
+    }
+  },
+  "arquivo_resposta": "A004_resposta.jpg",
+  "_avisos_entrada": []
+}

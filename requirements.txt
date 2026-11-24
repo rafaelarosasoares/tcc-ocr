@@ -1,0 +1,10 @@
+google-auth[requests]>=2.0,<3
+requests>=2.25,<3
+urllib3>=1.26,<3
+httpx>=0.28.1,<1
+google-cloud-documentai>=3.0,<4
+google-genai>=1.47,<2
+pandas>=2.0,<3
+openpyxl>=3.1,<4
+Pillow>=10,<12
+jsonschema>=4,<5

@@ -1,0 +1,23 @@
+{
+  "texto": "FOLHA DE REGISTRO\n1. Qual sinal você tentou descobrir primeiro? Por quê?\n2. Mostre como você acompanhou pelo menos um dos percursos. Você pode usar setas,\ncoordenadas, \ndesenho, tabela ou outra representação.\n3. Você testou algum significado para um sinal que depois percebeu que estava errado?\nSIM\nNÀO [ ]\nSe sim, qual hipótese você descartou e o que fez você perceber o erro?\nCEAOM\n4. Como você usou o segundo percurso para confirmar ou corrigir sua primeira ideia?\n5. Como você verificou que os quatro significados funcionavam nos dois percursos?\nTestando todas as alternativas até achar a\nсогоета, песте сабо четка B.\n6. Qual foi a parte mais difícil da atividade?\ndescobrir os sinais certOL,\n",
+  "paginas": [
+    {
+      "pagina": 1,
+      "qualidade": 0.9322336912155151,
+      "defeitos": [
+        {
+          "tipo": "quality/defect_document_cutoff",
+          "confianca": 1.0
+        },
+        {
+          "tipo": "quality/defect_glare",
+          "confianca": 0.6201459169387817
+        },
+        {
+          "tipo": "quality/defect_text_cutoff",
+          "confianca": 0.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "texto": "FOLHA DE REGISTRO\n1. Qual sinal você tentou descobrir primeiro? Por quê?\nEu tentei\nJozera (A)\n2. Mostre como você acompanhou pelo menos um dos percursos. Você pode usar setas,\ncoordenadas, desenho, tabela ou outra \nrepresentação.\n3. Você testou algum significado para um sinal que depois percebeu que estava errado?\nSIM [ ]\nNÃO X\nSe sim, qual hipótese você descartou e o que fez você perceber o erro?\nEu qui elhar com mais atensão pro\nas formas estovom com o dedozer\nVer Se\n4. Como você usou o segundo percurso para confirmar ou corrigir sua primeira ideia?\nse dove e\nas gomas a\nFui seguindo\npre Nes\nCom\nvrs\nolmamate\ncaminho certo\n5. Como você verificou que os quatro significados funcionavam nos dois percursos?\ngermas\n6. Qual foi a parte mais difícil da atividade?\nVer\nSe\nco cominho to certo\n",
+  "paginas": [
+    {
+      "pagina": 1,
+      "qualidade": 0.7489813566207886,
+      "defeitos": [
+        {
+          "tipo": "quality/defect_document_cutoff",
+          "confianca": 1.0
+        },
+        {
+          "tipo": "quality/defect_glare",
+          "confianca": 0.7504806518554688
+        },
+        {
+          "tipo": "quality/defect_text_cutoff",
+          "confianca": 0.5
+        }
+      ]
+    }
+  ]
+}

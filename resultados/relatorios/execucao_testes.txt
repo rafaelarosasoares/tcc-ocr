@@ -1,0 +1,67 @@
+Comando: .venv/bin/python -B -W ignore -m unittest discover -s tests -v
+Executado em (UTC): 2026-11-11T04:17:03+00:00
+Python: 3.9.6 (default, Dec  2 2025, 07:27:58)  [Clang 17.0.0 (clang-1700.6.3.2)]
+Código de saída: 0
+
+Planilha salva: /var/folders/yr/5tn2tcx94r79rgv50l1nd2gh0000gn/T/tmp810e8z65/resultado_turma.xlsx
+  1 registros exportados; 1 excluídos pelo limite de revisão.
+Planilha salva: /var/folders/yr/5tn2tcx94r79rgv50l1nd2gh0000gn/T/tmpd9sc09o9/resultado_turma.xlsx
+  0 registros exportados; 1 excluídos pelo limite de revisão.
+test_aceita_id_e_links_incluindo_link_do_usuario (test_entrada_drive.EntradaDriveTest) ... ok
+test_ambos_scripts_encerram_download_sem_inicializar_ocr (test_entrada_drive.EntradaDriveTest) ... ok
+test_baixa_em_pasta_independente_sem_alterar_entrada_existente (test_entrada_drive.EntradaDriveTest) ... ok
+test_cache_drive_corrompido_e_baixado_novamente (test_entrada_drive.EntradaDriveTest) ... ok
+test_checksum_incorreto_descarta_importacao (test_entrada_drive.EntradaDriveTest) ... ok
+test_download_falho_descarta_importacao_incompleta (test_entrada_drive.EntradaDriveTest) ... ok
+test_drive_configurado_e_somente_baixar (test_entrada_drive.EntradaDriveTest) ... ok
+test_entrada_local_nao_procura_credenciais (test_entrada_drive.EntradaDriveTest) ... ok
+test_exibe_diagnostico_real_de_escopo_insuficiente (test_entrada_drive.EntradaDriveTest) ... ok
+test_ignora_scans_sem_identificacao_e_outros_formatos (test_entrada_drive.EntradaDriveTest) ... ok
+test_importacao_seguinte_reusa_download_verificado_e_salva_origem (test_entrada_drive.EntradaDriveTest) ... ok
+test_mapeia_atv1_e_acrescenta_extensao_por_mime (test_entrada_drive.EntradaDriveTest) ... ok
+test_origem_sem_imagens_nao_reaproveita_download_anterior (test_entrada_drive.EntradaDriveTest) ... ok
+test_paginacao_inclui_paginas_vazias (test_entrada_drive.EntradaDriveTest) ... ok
+test_rejeita_duas_pastas_mapeadas_para_mesma_atividade (test_entrada_drive.EntradaDriveTest) ... ok
+test_rejeita_duplicatas_apos_normalizar_extensao_e_maiusculas (test_entrada_drive.EntradaDriveTest) ... ok
+test_rejeita_links_invalidos_e_injecao_na_consulta (test_entrada_drive.EntradaDriveTest) ... ok
+test_rejeita_listagem_incompleta (test_entrada_drive.EntradaDriveTest) ... ok
+test_rejeita_path_traversal (test_entrada_drive.EntradaDriveTest) ... ok
+test_url_explicita_tem_prioridade_sobre_configuracao (test_entrada_drive.EntradaDriveTest) ... ok
+test_exclui_da_atividade_e_da_revisao_sem_excluir_outra_atividade_do_aluno (test_exportacao.ExportacaoTest) ... ok
+test_limite_conta_apenas_status_das_questoes_sem_alterar_resultados (test_exportacao.ExportacaoTest) ... ok
+test_limite_zero_e_filtragem_total_mantem_planilha_valida (test_exportacao.ExportacaoTest) ... ok
+test_alterar_config_ocr_invalida_as_duas_etapas (test_fluxo_extracao.FluxoTest) ... ok
+test_amostra_reproduzivel_sem_referencias_inventadas (test_fluxo_extracao.FluxoTest) ... ok
+test_assinatura_inclui_modelo_prompt_e_schema (test_fluxo_extracao.FluxoTest) ... ok
+test_avaliacao_identifica_divergencias_inclusive_marcadas_ok (test_fluxo_extracao.FluxoTest) ... ok
+test_cache_corrompido_e_recalculado (test_fluxo_extracao.FluxoTest) ... ok
+test_cache_independente_de_ocr_e_prompt (test_fluxo_extracao.FluxoTest) ... ok
+test_erro_de_exportacao_preserva_planilha_anterior (test_fluxo_extracao.FluxoTest) ... ok
+test_excel_tem_links_pendencias_e_preserva_transcricao_literal (test_fluxo_extracao.FluxoTest) ... ok
+test_falha_de_autorizacao_interrompe_demais_chamadas_e_deixa_pendentes (test_fluxo_extracao.FluxoTest) ... ok
+test_falha_nova_nao_inclui_resultado_antigo_na_planilha_parcial (test_fluxo_extracao.FluxoTest) ... ok
+test_fontes_legadas_exigem_hash_correspondente (test_fluxo_extracao.FluxoTest) ... ok
+test_forcar_ignora_ambos_caches (test_fluxo_extracao.FluxoTest) ... ok
+test_gravacao_atomica_preserva_conteudo_anterior_quando_rename_falha (test_fluxo_extracao.FluxoTest) ... ok
+test_identificacao_removida_e_fontes_salvas (test_fluxo_extracao.FluxoTest) ... ok
+test_interrupcao_tem_checkpoint_e_pode_ser_retomada (test_fluxo_extracao.FluxoTest) ... ok
+test_ocr_das_duas_imagens_e_reutilizacao_por_conteudo (test_fluxo_extracao.FluxoTest) ... ok
+test_ocr_pede_qualidade_e_preserva_metricas_sem_chamada_real (test_fluxo_extracao.FluxoTest) ... ok
+test_offline_e_validacao_nao_inicializam_clientes (test_fluxo_extracao.FluxoTest) ... ok
+test_repeticao_apenas_para_falhas_transitorias (test_fluxo_extracao.FluxoTest) ... ok
+test_resposta_fora_schema_falha_sem_ser_salva (test_fluxo_extracao.FluxoTest) ... ok
+test_retomada_preserva_sucessos_e_reusa_ocr_da_falha (test_fluxo_extracao.FluxoTest) ... ok
+test_revisao_tem_motivo_e_fontes_e_qualidade (test_fluxo_extracao.FluxoTest) ... ok
+test_schema_e_prompts_nao_solicitam_nome_ou_ano (test_fluxo_extracao.FluxoTest) ... ok
+test_validacao_detecta_duplicidade_pares_e_imagens_corrompidas (test_fluxo_extracao.FluxoTest) ... ok
+test_ajuda_nao_carrega_sdks_de_nuvem_ou_bibliotecas_de_planilha (test_organizacao.OrganizacaoTest) ... ok
+test_comandos_de_entrada_funcionam_fora_da_pasta_do_projeto (test_organizacao.OrganizacaoTest) ... ok
+test_configuracao_invalida_e_recusada_antes_de_criar_clientes (test_organizacao.OrganizacaoTest) ... ok
+test_configuracao_tem_caminhos_ancorados_no_projeto (test_organizacao.OrganizacaoTest) ... ok
+test_encerramento_libera_ambos_clientes_mesmo_com_erro (test_organizacao.OrganizacaoTest) ... ok
+test_extratores_tem_configuracoes_independentes (test_organizacao.OrganizacaoTest) ... ok
+
+----------------------------------------------------------------------
+Ran 53 tests in 1.082s
+
+OK

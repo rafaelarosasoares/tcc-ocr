@@ -1,0 +1,52 @@
+{
+  "atividade": "Água para todos",
+  "nome_estudante": "Louisa Fontoura",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "D",
+    "status": "ok"
+  },
+  "q2": {
+    "representacao": "Texto: \"ANALISEI AS CONEXÕES DAS OUTRAS OPÇÕES, E VI QUE NÃO HÁ NECESSIDADE DE POR O PONTO DE DISTRIBUIÇÃO EM OUTRO SE NÃO A OPÇÃO 4.\" Na Imagem 1, o número \"4\" na pergunta está circulado e os números \"1\", \"2\", \"3\" estão riscados com um \"X\". No mapa, o nó \"4\" está circulado. Há linhas a lápis traçadas dos nós 1, 2, 3 e 4 para seus respectivos vizinhos diretos.",
+    "status": "ok"
+  },
+  "q3": {
+    "pontos_considerados": [
+      4
+    ],
+    "somente_resposta_final": true,
+    "status": "revisar"
+  },
+  "q4": {
+    "testou_ponto": false,
+    "explicacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "VERIFICANDO TODOS E CONTANDO QUANTAS ESTRADAS.",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "NÃO ME PERDER NO RACIOCINIO.",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A006",
+  "codigo_atividade": "agua_para_todos",
+  "arquivo_resposta": "A006_resposta.jpg",
+  "arquivo_questao": "A006_questao.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:23:57",
+    "hashes_entrada": {
+      "resposta": "d9a81f722b7c8c44da3ae628578e3b16148e251b106612c3f5e6e6193da3e525",
+      "questao": "2bb2afe4f38b12dbe8b963a65fe610940dee5cc02a6fcbae61b77136e11ab60b"
+    }
+  }
+}

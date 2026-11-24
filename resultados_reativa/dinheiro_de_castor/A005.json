@@ -1,0 +1,85 @@
+{
+  "atividade": "Dinheiro de Castor",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "combinacoes_testadas": null,
+    "status": "ok"
+  },
+  "q3": {
+    "comparacao": null,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_combinacao": false,
+    "combinacao_ou_explicacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q7": {
+    "resposta": "identificar os quatro tipos de cédulas e comparar somente dois quadradinhos do quadriculado",
+    "status": "ok"
+  },
+  "q8": {
+    "mudou_resposta_ou_estrategia": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "_motivos_revisao": {},
+  "_processamento": {
+    "assinatura": "539f9d225ae165328467851f0fdc46b2216861577c9bd295d24a4079583ca650",
+    "hashes_entrada": {
+      "resposta": "2340f6ff6fab7bb018a5c805159e687fc334a1732edd60d764d19c4a42d65d26"
+    },
+    "assinatura_interpretacao": "41d92dd33050bbbf6ec291fc3ef22d2a50985dfb779dd09c8d396cdeba023929",
+    "config_ocr": {
+      "processador": "projects/project-5e3bf1fd-47b5-442e-90d/locations/us/processors/15f792d10b41ff08",
+      "qualidade_imagem": true,
+      "versao_ocr": 1
+    },
+    "modelo": "gemini-2.5-flash",
+    "versao": "3.0",
+    "processado_em": "2026-11-21T20:47:31+00:00"
+  },
+  "_qualidade_imagens": {
+    "resposta": [
+      {
+        "pagina": 1,
+        "qualidade": 0.9601070284843445,
+        "defeitos": [
+          {
+            "tipo": "quality/defect_document_cutoff",
+            "confianca": 1.0
+          },
+          {
+            "tipo": "quality/defect_glare",
+            "confianca": 0.7187848091125488
+          },
+          {
+            "tipo": "quality/defect_text_cutoff",
+            "confianca": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "codigo_aluno": "A005",
+  "codigo_atividade": "dinheiro_de_castor",
+  "_fontes": {
+    "resposta": {
+      "local": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A005_resposta.jpg",
+      "drive": null
+    }
+  },
+  "arquivo_resposta": "A005_resposta.jpg",
+  "_avisos_entrada": []
+}

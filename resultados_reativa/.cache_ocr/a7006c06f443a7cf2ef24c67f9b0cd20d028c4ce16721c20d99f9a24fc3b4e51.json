@@ -1,0 +1,23 @@
+{
+  "texto": "FOLHA DE REGISTRO\n1. Qual alternativa você escolheu?\nBC()\nA() B\n)D()\n2. Quais combinações de quadradinhos você testou?\n10c 12, 748 16.\n3. Mostre como você comparou as quatro cédulas. Use sua criatividade: você pode responder com marcaç\nfolha.\n4. Você testou alguma combinação que não funcionou?\nSim() Não\nCaso tenha testado, mostre e explique essa combinação:\n12\n5. Por que essa combinação não conseguia diferenciar todas as cédulas?\nporque algumas estão iguais\n6. Como você verificou que os dois quadradinhos escolhidos eram suficientes?\nquando todos estavam diferentes.\n7. Qual foi a parte mais difícil da atividade?\nidentificar 2 quadrados que fossem toobs diferentes\n8. Depois de conversar com um colega, você mudou sua resposta ou estratégia?\nNão () Sim\nO que fez você mudar?\n",
+  "paginas": [
+    {
+      "pagina": 1,
+      "qualidade": 0.963697612285614,
+      "defeitos": [
+        {
+          "tipo": "quality/defect_document_cutoff",
+          "confianca": 1.0
+        },
+        {
+          "tipo": "quality/defect_text_cutoff",
+          "confianca": 0.8803759217262268
+        },
+        {
+          "tipo": "quality/defect_glare",
+          "confianca": 0.7797302007675171
+        }
+      ]
+    }
+  ]
+}

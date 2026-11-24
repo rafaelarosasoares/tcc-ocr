@@ -1,0 +1,23 @@
+{
+  "texto": "FOLHA DE REGISTRO\n1. Qual sinal você tentou descobrir primeiro? Por quê?\nRQUES CUP PRIMERO\n2. Mostre como você acompanhou pelo menos um dos percursos. Você pode usar setas,\ncoordenadas, desenho, tabela ou outra representação.\n0\nD\n3. Você testou algum significado para um sinal que depois percebeu que estava errado?\nSIM []\nNÃO\nSe sim, qual hipótese você descartou e o que fez você perceber o erro?\n4. Como você usou o segundo percurso para confirmar ou corrigir sua primeira ideia?\nEVİ DE UMA FORMA DIFERENTE\n5. Como você verificou que os quatro significados funcionavam nos dois percursos?\nPOROLE CU FUITESTANDO\n6. Qual foi a parte mais difícil da atividade?\nFRI TESTAR ATE CHEGAR NO CLATO\n",
+  "paginas": [
+    {
+      "pagina": 1,
+      "qualidade": 0.9504885077476501,
+      "defeitos": [
+        {
+          "tipo": "quality/defect_document_cutoff",
+          "confianca": 1.0
+        },
+        {
+          "tipo": "quality/defect_glare",
+          "confianca": 0.7637966871261597
+        },
+        {
+          "tipo": "quality/defect_text_cutoff",
+          "confianca": 0.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "atividade": "Dinheiro de castor",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "combinacoes_testadas": [
+      "9 e a 10"
+    ],
+    "status": "ok"
+  },
+  "q3": {
+    "comparacao": "Analizei as sedulas e chegue no resultado 9 e so",
+    "status": "ok"
+  },
+  "q4": {
+    "testou_combinacao": false,
+    "combinacao_ou_explicacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "Calculondo as cedulas",
+    "status": "ok"
+  },
+  "q7": {
+    "resposta": "Acho qual exo o número do sedulo",
+    "status": "ok"
+  },
+  "q8": {
+    "mudou_resposta_ou_estrategia": false,
+    "justificativa": "Agente resolveu juntos",
+    "status": "ok"
+  },
+  "_motivos_revisao": {},
+  "_processamento": {
+    "assinatura": "1f38a215d58495880a148dbfe63406e31c8447dc54f1037a0a3181adea7c05c4",
+    "hashes_entrada": {
+      "resposta": "8615c9b8b1be4969b55e04e2472867c8b5c42ddd50720cd3c3fde18e8aced101"
+    },
+    "assinatura_interpretacao": "41d92dd33050bbbf6ec291fc3ef22d2a50985dfb779dd09c8d396cdeba023929",
+    "config_ocr": {
+      "processador": "projects/project-5e3bf1fd-47b5-442e-90d/locations/us/processors/15f792d10b41ff08",
+      "qualidade_imagem": true,
+      "versao_ocr": 1
+    },
+    "modelo": "gemini-2.5-flash",
+    "versao": "3.0",
+    "processado_em": "2026-11-21T20:47:24+00:00"
+  },
+  "_qualidade_imagens": {
+    "resposta": [
+      {
+        "pagina": 1,
+        "qualidade": 0.9551365971565247,
+        "defeitos": [
+          {
+            "tipo": "quality/defect_document_cutoff",
+            "confianca": 1.0
+          },
+          {
+            "tipo": "quality/defect_text_cutoff",
+            "confianca": 0.9817742109298706
+          },
+          {
+            "tipo": "quality/defect_glare",
+            "confianca": 0.7038424611091614
+          }
+        ]
+      }
+    ]
+  },
+  "codigo_aluno": "A004",
+  "codigo_atividade": "dinheiro_de_castor",
+  "_fontes": {
+    "resposta": {
+      "local": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A004_resposta.jpg",
+      "drive": null
+    }
+  },
+  "arquivo_resposta": "A004_resposta.jpg",
+  "_avisos_entrada": []
+}

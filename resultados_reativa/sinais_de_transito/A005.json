@@ -1,0 +1,79 @@
+{
+  "atividade": "Sinais de Trânsito",
+  "q1": {
+    "simbolo": null,
+    "justificativa": "TODOS, PORQUE TESTAMOS CADA OPÇÃO PARA DESCOBRIR.",
+    "status": "ok"
+  },
+  "q2": {
+    "texto": "A-",
+    "desenho": "Desenho de setas: uma seta horizontal para a esquerda, uma seta horizontal para a direita, uma seta vertical para baixo, uma seta vertical para cima. Abaixo, uma seta horizontal para a direita com um traço vertical acima, uma seta horizontal para a esquerda com um traço vertical acima, uma seta vertical para baixo e uma seta vertical para cima.",
+    "status": "ok"
+  },
+  "q3": {
+    "testou_significado": true,
+    "hipotese_descartada": "VER QUE O CAMINHO NAD LEVOU ATÉ O AEROPORTO.",
+    "como_percebeu": "VER QUE O CAMINHO NAD LEVOU ATÉ O AEROPORTO.",
+    "status": "ok"
+  },
+  "q4": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "_motivos_revisao": {},
+  "_processamento": {
+    "assinatura": "b817f1ef1b550ca519e22483e5411dbf7191910a329e63a9de390fdc5a91f39f",
+    "hashes_entrada": {
+      "resposta": "97ded65408d6835e46b23a8797a5591872e7c822a9342cef67a0bfca1f748bfa"
+    },
+    "assinatura_interpretacao": "bc0a6915400f08b721fa0f1586681e7843b6959a1c681b47c235c80d4b43e03d",
+    "config_ocr": {
+      "processador": "projects/project-5e3bf1fd-47b5-442e-90d/locations/us/processors/15f792d10b41ff08",
+      "qualidade_imagem": true,
+      "versao_ocr": 1
+    },
+    "modelo": "gemini-2.5-flash",
+    "versao": "3.0",
+    "processado_em": "2026-11-21T20:46:53+00:00"
+  },
+  "_qualidade_imagens": {
+    "resposta": [
+      {
+        "pagina": 1,
+        "qualidade": 0.9875863194465637,
+        "defeitos": [
+          {
+            "tipo": "quality/defect_document_cutoff",
+            "confianca": 1.0
+          },
+          {
+            "tipo": "quality/defect_glare",
+            "confianca": 0.7713421583175659
+          },
+          {
+            "tipo": "quality/defect_text_cutoff",
+            "confianca": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "codigo_aluno": "A005",
+  "codigo_atividade": "sinais_de_transito",
+  "_fontes": {
+    "resposta": {
+      "local": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/sinais_de_transito/A005_resposta.jpg",
+      "drive": null
+    }
+  },
+  "arquivo_resposta": "A005_resposta.jpg",
+  "_avisos_entrada": []
+}

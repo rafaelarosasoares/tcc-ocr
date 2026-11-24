@@ -1,0 +1,87 @@
+{
+  "atividade": "Dinheiro de Castor",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "combinacoes_testadas": [
+      "TODAS"
+    ],
+    "status": "ok"
+  },
+  "q3": {
+    "comparacao": "Quatro grades 4x4 são desenhadas, rotuladas '10', '20', '50' e '100'. Na grade '10', os números de 1 a 16 estão escritos sequencialmente em cada célula. Nas grades '20', '50' e '100', a célula na terceira linha e segunda coluna está preenchida/escurecida, e o número '10' está escrito dentro dela. Ao lado das grades, está escrito 'NENHUM SE REPETE'.",
+    "status": "ok"
+  },
+  "q4": {
+    "testou_combinacao": true,
+    "combinacao_ou_explicacao": "EU TESTEI TODAS MAS SEMPRE UMA SE REPETIA.",
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "PORQUE SE REPETIA",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "VENDO QUE ELES NÃO SE REPETEM",
+    "status": "ok"
+  },
+  "q7": {
+    "resposta": "TESTAR TODAS AS OPÇÕES.",
+    "status": "ok"
+  },
+  "q8": {
+    "mudou_resposta_ou_estrategia": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "_motivos_revisao": {},
+  "_processamento": {
+    "assinatura": "e6b8937a4894d6fefc411b8f70917289f14b3102d2cd8a3bab446cadabb2d11d",
+    "hashes_entrada": {
+      "resposta": "3d8afffff3e889ea5f24b3fcea210dca2e946077ad082d30266796c2d0cbf8b1"
+    },
+    "assinatura_interpretacao": "41d92dd33050bbbf6ec291fc3ef22d2a50985dfb779dd09c8d396cdeba023929",
+    "config_ocr": {
+      "processador": "projects/project-5e3bf1fd-47b5-442e-90d/locations/us/processors/15f792d10b41ff08",
+      "qualidade_imagem": true,
+      "versao_ocr": 1
+    },
+    "modelo": "gemini-2.5-flash",
+    "versao": "3.0",
+    "processado_em": "2026-11-21T20:48:24+00:00"
+  },
+  "_qualidade_imagens": {
+    "resposta": [
+      {
+        "pagina": 1,
+        "qualidade": 0.9832923412322998,
+        "defeitos": [
+          {
+            "tipo": "quality/defect_document_cutoff",
+            "confianca": 1.0
+          },
+          {
+            "tipo": "quality/defect_text_cutoff",
+            "confianca": 0.8804758787155151
+          },
+          {
+            "tipo": "quality/defect_glare",
+            "confianca": 0.6472723484039307
+          }
+        ]
+      }
+    ]
+  },
+  "codigo_aluno": "A010",
+  "codigo_atividade": "dinheiro_de_castor",
+  "_fontes": {
+    "resposta": {
+      "local": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A010_resposta.jpg",
+      "drive": null
+    }
+  },
+  "arquivo_resposta": "A010_resposta.jpg",
+  "_avisos_entrada": []
+}

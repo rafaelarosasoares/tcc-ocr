@@ -1,0 +1,93 @@
+{
+  "atividade": "Dinheiro de castor",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "combinacoes_testadas": [
+      "2 e 4",
+      "2 e 16",
+      "2 e 20"
+    ],
+    "status": "revisar"
+  },
+  "q3": {
+    "comparacao": "Comparei as quatro cédulas olhando o padrão no 2, 2, 6, 2 e marcando 1/25 nas duas cédulas.",
+    "status": "revisar"
+  },
+  "q4": {
+    "testou_combinacao": true,
+    "combinacao_ou_explicacao": "1 e 4 e 2 e 6",
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "Porque duas se encaixavam no mesmo padrão.",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "Verifiquei que...",
+    "status": "ilegivel"
+  },
+  "q7": {
+    "resposta": "A dificuldade foi que nem todas as regras funcionaram.",
+    "status": "ok"
+  },
+  "q8": {
+    "mudou_resposta_ou_estrategia": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "_motivos_revisao": {
+    "q2": "O modelo sinalizou ambiguidade na extração; confira com a imagem.",
+    "q3": "O modelo sinalizou ambiguidade na extração; confira com a imagem.",
+    "q6": "Conteúdo sinalizado como ilegível; conferir a foto ou obter nova digitalização."
+  },
+  "_processamento": {
+    "assinatura": "0c0f9ae22fa815cd4f3ced309fdd812b0d781f1aab33e92038ac9a40f12390f4",
+    "hashes_entrada": {
+      "resposta": "e45ae448a92618aee8f40b05b09492535dd00f39933b3d25c211d6d0f899b379"
+    },
+    "assinatura_interpretacao": "41d92dd33050bbbf6ec291fc3ef22d2a50985dfb779dd09c8d396cdeba023929",
+    "config_ocr": {
+      "processador": "projects/project-5e3bf1fd-47b5-442e-90d/locations/us/processors/15f792d10b41ff08",
+      "qualidade_imagem": true,
+      "versao_ocr": 1
+    },
+    "modelo": "gemini-2.5-flash",
+    "versao": "3.0",
+    "processado_em": "2026-11-21T20:48:04+00:00"
+  },
+  "_qualidade_imagens": {
+    "resposta": [
+      {
+        "pagina": 1,
+        "qualidade": 0.8426193594932556,
+        "defeitos": [
+          {
+            "tipo": "quality/defect_document_cutoff",
+            "confianca": 1.0
+          },
+          {
+            "tipo": "quality/defect_text_cutoff",
+            "confianca": 0.8796983361244202
+          },
+          {
+            "tipo": "quality/defect_glare",
+            "confianca": 0.7063877582550049
+          }
+        ]
+      }
+    ]
+  },
+  "codigo_aluno": "A008",
+  "codigo_atividade": "dinheiro_de_castor",
+  "_fontes": {
+    "resposta": {
+      "local": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A008_resposta.jpg",
+      "drive": null
+    }
+  },
+  "arquivo_resposta": "A008_resposta.jpg",
+  "_avisos_entrada": []
+}

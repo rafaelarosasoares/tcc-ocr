@@ -1,0 +1,23 @@
+{
+  "texto": "FOLHA DE REGISTRO\n1. Qual alternativa você escolheu?\nA()B C() D()\n2. Quais combinações de quadradinhos você testou?\nF 20\n3. Mostre como você comparou as quatro cédulas. Use sua criatividade: você pode responder com marca\nfolha.\n2\n4. Você testou alguma combinação que não funcionou?\n() Sim\nNão\nCaso tenha testado, mostre e explique essa combinação:\n5. Por que essa combinação não conseguia diferenciar todas as cédulas?\n6. Como você verificou que os dois quadradinhos escolhidos eram suficientes?\nUNICOS\nFECHOU\n7. Qual foi a parte mais dificil da atividade?\n8. Depois de conversar com um colega, você mudou sua resposta ou estratégia?\nNão () Sim\nO que fez você mudar?\n",
+  "paginas": [
+    {
+      "pagina": 1,
+      "qualidade": 0.9785770773887634,
+      "defeitos": [
+        {
+          "tipo": "quality/defect_document_cutoff",
+          "confianca": 1.0
+        },
+        {
+          "tipo": "quality/defect_text_cutoff",
+          "confianca": 0.8805249333381653
+        },
+        {
+          "tipo": "quality/defect_glare",
+          "confianca": 0.7050012946128845
+        }
+      ]
+    }
+  ]
+}

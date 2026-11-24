@@ -1,0 +1,51 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": "Videnas",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "A",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": [
+      "GIACULO",
+      "PENTA"
+    ],
+    "observacao": null,
+    "status": "ok"
+  },
+  "q3": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_caminho": true,
+    "representacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "Fazendo Testes e tentativas",
+    "status": "revisar"
+  },
+  "q6": {
+    "resposta": "Descobrir a sequência",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A013",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A013_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:30:31",
+    "hashes_entrada": {
+      "resposta": "1b923b6d228203353ff2ee9a101046d9cfd3b047d18c36fd54900bd5200223ab"
+    }
+  }
+}

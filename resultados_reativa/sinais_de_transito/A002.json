@@ -1,0 +1,79 @@
+{
+  "atividade": "Sinais de Trânsito",
+  "q1": {
+    "simbolo": "(A)",
+    "justificativa": "Eu tentei fazer o",
+    "status": "ok"
+  },
+  "q2": {
+    "texto": null,
+    "desenho": "↑ ← → → → ↑ ← ↑",
+    "status": "ok"
+  },
+  "q3": {
+    "testou_significado": false,
+    "hipotese_descartada": null,
+    "como_percebeu": "Eu quis olhar com mais atenção para as formas estavam com a decor",
+    "status": "ok"
+  },
+  "q4": {
+    "resposta": "Fui seguindo as formas e o caminho certo",
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "Com as formas",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "Ver se o caminho está certo",
+    "status": "ok"
+  },
+  "_motivos_revisao": {},
+  "_processamento": {
+    "assinatura": "aae61e83fd2b7d46e327f7c655ebe93ca23c158e06f5a29eced127b14722efa5",
+    "hashes_entrada": {
+      "resposta": "9daba6911a5b27d39e876899aec47b97e28e618bde7ff49ca7b48d6994ac37ae"
+    },
+    "assinatura_interpretacao": "bc0a6915400f08b721fa0f1586681e7843b6959a1c681b47c235c80d4b43e03d",
+    "config_ocr": {
+      "processador": "projects/project-5e3bf1fd-47b5-442e-90d/locations/us/processors/15f792d10b41ff08",
+      "qualidade_imagem": true,
+      "versao_ocr": 1
+    },
+    "modelo": "gemini-2.5-flash",
+    "versao": "3.0",
+    "processado_em": "2026-11-21T20:46:13+00:00"
+  },
+  "_qualidade_imagens": {
+    "resposta": [
+      {
+        "pagina": 1,
+        "qualidade": 0.7489813566207886,
+        "defeitos": [
+          {
+            "tipo": "quality/defect_document_cutoff",
+            "confianca": 1.0
+          },
+          {
+            "tipo": "quality/defect_glare",
+            "confianca": 0.7504806518554688
+          },
+          {
+            "tipo": "quality/defect_text_cutoff",
+            "confianca": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "codigo_aluno": "A002",
+  "codigo_atividade": "sinais_de_transito",
+  "_fontes": {
+    "resposta": {
+      "local": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/sinais_de_transito/A002_resposta.jpg",
+      "drive": null
+    }
+  },
+  "arquivo_resposta": "A002_resposta.jpg",
+  "_avisos_entrada": []
+}

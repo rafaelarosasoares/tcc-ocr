@@ -1,0 +1,53 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": "BETINA",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "A",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": [
+      "círculo",
+      "triângulo invertido",
+      "losango",
+      "lua crescente"
+    ],
+    "observacao": null,
+    "status": "ok"
+  },
+  "q3": {
+    "resposta": "Desenhos de uma sequência de formas: círculo, estrela de quatro pontas, triângulo, estrela de quatro pontas, lua crescente.",
+    "status": "ok"
+  },
+  "q4": {
+    "testou_caminho": false,
+    "representacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "e o ÚNICO QUE FUNCIONOU comigo",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "PENSAR",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A014",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A014_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:30:45",
+    "hashes_entrada": {
+      "resposta": "486b5271df914f3f43c0d47b331ba89f96cae70bd5a6f005c12c05cfe45317cf"
+    }
+  }
+}

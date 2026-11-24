@@ -1,0 +1,53 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": null,
+  "nome_status": "ausente",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": [
+      "hexagono",
+      "triangulo_para_baixo",
+      "estrela",
+      "lua_crescente"
+    ],
+    "observacao": null,
+    "status": "ok"
+  },
+  "q3": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_caminho": false,
+    "representacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": null,
+    "status": "ilegivel"
+  },
+  "q6": {
+    "resposta": null,
+    "status": "ilegivel"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A017",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A017_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:31:21",
+    "hashes_entrada": {
+      "resposta": "8eb9fefd20644df1babce28303e66c82056923ed79490952d03b6639cc8b5ac5"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "google_cloud": {
+    "project_id": "project-5e3bf1fd-47b5-442e-90d",
+    "document_ai_location": "us",
+    "processor_id": "15f792d10b41ff08",
+    "vertex_location": "global",
+    "modelo_gemini": "gemini-2.5-flash"
+  },
+  "google_drive": {
+    "pasta_id": "1imt1NW1hgYaR8x98xHMfOVz3nNvZERHn",
+    "pastas_atividades": {
+      "ATV1": "chaves_do_cofre",
+      "ATV2": "agua_para_todos"
+    },
+    "pastas_atividades_por_id": {
+      "sinais_de_transito": "1DkbY6S3u6pfqL0z8646mE9Iyov1zMXef",
+      "dinheiro_de_castor": "1F3rMilKEDrdBwqTbsty1TSK3DaqoN9yU"
+    }
+  },
+  "processamento": {
+    "versao": "3.0",
+    "timeout_segundos": 120,
+    "tentativas": 3,
+    "qualidade_imagem": true
+  },
+  "exportacao": {
+    "max_revisar_por_registro": 1
+  }
+}

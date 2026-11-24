@@ -1,0 +1,109 @@
+{
+  "atividade": "Dinheiro de castor",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "combinacoes_testadas": [
+      "1 6",
+      "2 C",
+      "1-C"
+    ],
+    "status": "ok"
+  },
+  "q3": {
+    "comparacao": "PARA FACILITAR, ATRIBUI VALORES AO NÚMERO E BANCO (9) ANALISANDO 9 6 TO NÃO SE REPETEM E TEM COMBINAÇÕES DIFERENTES: 10 (01) 20 (10) 50 (11) 100 (00)",
+    "status": "ok"
+  },
+  "q4": {
+    "testou_combinacao": true,
+    "combinacao_ou_explicacao": "1 E G MAS NÃO TINHA ALTERNATIVA 6 0 1-2",
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "POIS ELAS SE REPETIAM",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "POIS TINHAM UM PADRÃO ÚNICO",
+    "status": "ok"
+  },
+  "q7": {
+    "resposta": "NENHUMA",
+    "status": "ok"
+  },
+  "q8": {
+    "mudou_resposta_ou_estrategia": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "_motivos_revisao": {},
+  "_processamento": {
+    "assinatura": "ec7619f184c7fc07186dd7367fdd1b2dfd1732921597dbc9e8c903fa797c6d52",
+    "hashes_entrada": {
+      "resposta": "cde73e015bcca8be8aa45bdc0780b98147eb6ebc7315a8ee52432984f61697b9"
+    },
+    "assinatura_interpretacao": "41d92dd33050bbbf6ec291fc3ef22d2a50985dfb779dd09c8d396cdeba023929",
+    "config_ocr": {
+      "processador": "projects/project-5e3bf1fd-47b5-442e-90d/locations/us/processors/15f792d10b41ff08",
+      "qualidade_imagem": true,
+      "versao_ocr": 1
+    },
+    "modelo": "gemini-2.5-flash",
+    "versao": "3.0",
+    "processado_em": "2026-11-21T20:49:32+00:00"
+  },
+  "_qualidade_imagens": {
+    "resposta": [
+      {
+        "pagina": 1,
+        "qualidade": 0.6673043370246887,
+        "defeitos": [
+          {
+            "tipo": "quality/defect_document_cutoff",
+            "confianca": 1.0
+          },
+          {
+            "tipo": "quality/defect_glare",
+            "confianca": 0.7831128835678101
+          },
+          {
+            "tipo": "quality/defect_text_cutoff",
+            "confianca": 0.5
+          },
+          {
+            "tipo": "quality/defect_faint",
+            "confianca": 0.13900065422058105
+          },
+          {
+            "tipo": "quality/defect_noisy",
+            "confianca": 0.0843428298830986
+          },
+          {
+            "tipo": "quality/defect_text_too_small",
+            "confianca": 0.03184257075190544
+          },
+          {
+            "tipo": "quality/defect_blurry",
+            "confianca": 0.014314742758870125
+          },
+          {
+            "tipo": "quality/defect_dark",
+            "confianca": 0.0019460383336991072
+          }
+        ]
+      }
+    ]
+  },
+  "codigo_aluno": "A018",
+  "codigo_atividade": "dinheiro_de_castor",
+  "_fontes": {
+    "resposta": {
+      "local": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A018_resposta.jpg",
+      "drive": null
+    }
+  },
+  "arquivo_resposta": "A018_resposta.jpg",
+  "_avisos_entrada": []
+}

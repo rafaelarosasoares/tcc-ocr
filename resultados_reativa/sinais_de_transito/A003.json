@@ -1,0 +1,83 @@
+{
+  "atividade": "Sinais de Trânsito",
+  "q1": {
+    "simbolo": "A",
+    "justificativa": "LEVA",
+    "status": "revisar"
+  },
+  "q2": {
+    "texto": null,
+    "desenho": "Uma sequência de 5 quadrados conectados por linhas horizontais. Uma seta aponta do segundo quadrado para o terceiro. Abaixo do segundo quadrado, há uma linha vertical para baixo, que se conecta a uma linha horizontal à esquerda. Dessa linha horizontal, uma linha vertical sobe e encontra a linha horizontal que conecta o primeiro e o segundo quadrados. Uma seta aponta da linha vertical inferior para a linha horizontal entre o primeiro e o segundo quadrados.",
+    "status": "ok"
+  },
+  "q3": {
+    "testou_significado": true,
+    "hipotese_descartada": "C A Q que não [ilegível] GALO",
+    "como_percebeu": null,
+    "status": "revisar"
+  },
+  "q4": {
+    "resposta": "Usou o 2º percurso para [ilegível]",
+    "status": "revisar"
+  },
+  "q5": {
+    "resposta": "Testando todas as alternativas até achar a correta, neste caso, letra B.",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "descobrir os sinais, certo,",
+    "status": "ok"
+  },
+  "_motivos_revisao": {
+    "q1": "O modelo sinalizou ambiguidade na extração; confira com a imagem.",
+    "q3": "O modelo sinalizou ambiguidade na extração; confira com a imagem.",
+    "q4": "O modelo sinalizou ambiguidade na extração; confira com a imagem."
+  },
+  "_processamento": {
+    "assinatura": "baa75592129ef9be3e9e5c18186aed35082c63bbc4d4235c36057be46eaa867a",
+    "hashes_entrada": {
+      "resposta": "bb717805fde3a5e38a8794aad8aaa4c9cb67c466ccbdcf832d804f01a0ddb342"
+    },
+    "assinatura_interpretacao": "bc0a6915400f08b721fa0f1586681e7843b6959a1c681b47c235c80d4b43e03d",
+    "config_ocr": {
+      "processador": "projects/project-5e3bf1fd-47b5-442e-90d/locations/us/processors/15f792d10b41ff08",
+      "qualidade_imagem": true,
+      "versao_ocr": 1
+    },
+    "modelo": "gemini-2.5-flash",
+    "versao": "3.0",
+    "processado_em": "2026-11-21T20:46:35+00:00"
+  },
+  "_qualidade_imagens": {
+    "resposta": [
+      {
+        "pagina": 1,
+        "qualidade": 0.9322336912155151,
+        "defeitos": [
+          {
+            "tipo": "quality/defect_document_cutoff",
+            "confianca": 1.0
+          },
+          {
+            "tipo": "quality/defect_glare",
+            "confianca": 0.6201459169387817
+          },
+          {
+            "tipo": "quality/defect_text_cutoff",
+            "confianca": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "codigo_aluno": "A003",
+  "codigo_atividade": "sinais_de_transito",
+  "_fontes": {
+    "resposta": {
+      "local": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/sinais_de_transito/A003_resposta.jpg",
+      "drive": null
+    }
+  },
+  "arquivo_resposta": "A003_resposta.jpg",
+  "_avisos_entrada": []
+}

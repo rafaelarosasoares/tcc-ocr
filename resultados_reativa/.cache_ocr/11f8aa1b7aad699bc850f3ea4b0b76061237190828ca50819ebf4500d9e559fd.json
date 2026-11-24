@@ -1,0 +1,23 @@
+{
+  "texto": "GISTRO\n1. Qual alternativa você escolheu?\nA()\nBC() D()\n2. Quais combinações de quadradinhos você testou?\n3. Mostre como você comparou as quatro cédulas. Use sua criatividade: você pode responder com marcaçõ\nfolha.\nRespondi com MARCAções ha\nfolHp.\n4. Você testou alguma combinação que não funcionou?\n() Sim\nNão\nCaso tenha testado, mostre e explique essa combinação:\n5. Por que essa combinação não consegula diferenciar todas as cédulas?\n6. Como você verificou que os dois quadradinhos escolhidos eram suficientes?\n-Campehondo As a cédulas\ncomparand\nrando's os\navAdhAdintos Coh As y cedulAS PARA veh se A Mint A\nEstrategia\n7. Qual foi a parte mais difícil da atividade?\n8. Depois de conversar com um colega, você mudou sua resposta ou estratégia?\nNão () Sim\nO que fez você mudar?\n",
+  "paginas": [
+    {
+      "pagina": 1,
+      "qualidade": 0.8780431747436523,
+      "defeitos": [
+        {
+          "tipo": "quality/defect_document_cutoff",
+          "confianca": 1.0
+        },
+        {
+          "tipo": "quality/defect_text_cutoff",
+          "confianca": 0.8810632824897766
+        },
+        {
+          "tipo": "quality/defect_glare",
+          "confianca": 0.5950421094894409
+        }
+      ]
+    }
+  ]
+}

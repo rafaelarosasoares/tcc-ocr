@@ -1,0 +1,54 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": "Laura Rigon",
+  "nome_status": "ok",
+  "ano": "9º",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": [
+      "pentagono",
+      "triângulo",
+      "estrela",
+      "Lua",
+      "chave"
+    ],
+    "observacao": null,
+    "status": "ok"
+  },
+  "q3": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_caminho": true,
+    "representacao": "círculo -> coração -> mais -> A",
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "Testando outros caminhos.",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A012",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A012_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:30:19",
+    "hashes_entrada": {
+      "resposta": "c03231a2faa5912b951cb463899147b95f113356bf87ab591d44e312ca237464"
+    }
+  }
+}

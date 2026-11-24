@@ -1,0 +1,23 @@
+{
+  "texto": "FOLHA DE REGISTRO\nAtividade Bebras: Dinheiro, de castor\n1. Qual alternativa você escolheu?\nA()BC() D()\n9110\nQuais combinações de quadradinhos você testou?\n3. Mostre como você comparou as quatro cédulas. Use sua criatividade: você pode responder cor\nfolha.\n4. Você testou alguma combinação que não funcionou?\n() Sim\nNão\nCaso tenha testado, mostre e explique essa combinação:\n5. Por que essa combinação não conseguia diferenciar todas as cédulas?\n6. Como você verificou que os dois quadradinhos escolhidos eram suficientes?\nporque a proffessora implicou\n7 Qual foi a parte mais difícil da atividade?\nfazer ela\n8. Depois de conversar com um colega, você mudou sua resposta ou estratégia?\nNão () Sim\nO que fez você mudar?\n",
+  "paginas": [
+    {
+      "pagina": 1,
+      "qualidade": 0.9780938625335693,
+      "defeitos": [
+        {
+          "tipo": "quality/defect_document_cutoff",
+          "confianca": 1.0
+        },
+        {
+          "tipo": "quality/defect_text_cutoff",
+          "confianca": 0.8805047273635864
+        },
+        {
+          "tipo": "quality/defect_glare",
+          "confianca": 0.6803597807884216
+        }
+      ]
+    }
+  ]
+}

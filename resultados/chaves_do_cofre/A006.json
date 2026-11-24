@@ -1,0 +1,48 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": "Erick Reley de Souza Marllus",
+  "nome_status": "revisar",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "A",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": null,
+    "observacao": null,
+    "status": "ok"
+  },
+  "q3": {
+    "resposta": "Desenho de um diagrama com quadrados e círculos interconectados, formando um caminho ou rede.",
+    "status": "ok"
+  },
+  "q4": {
+    "testou_caminho": true,
+    "representacao": "bolinha, coração, mais a daí deu errado",
+    "status": "revisar"
+  },
+  "q5": {
+    "resposta": "contando para o menor",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "encontrar o ciclo mais rapido",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A006",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A006_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:23:00",
+    "hashes_entrada": {
+      "resposta": "605157117592774424455c112cbbbd6102a246aece24b9f73d9374ab1497b9ad"
+    }
+  }
+}

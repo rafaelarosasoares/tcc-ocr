@@ -1,0 +1,50 @@
+{
+  "atividade": "Água para todos",
+  "nome_estudante": "Luana",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "representacao": "Na IMAGEM 1 (mapa), o estudante circulou os nós 1, 2, 3 e 4. Há linhas traçadas a partir do nó 2, conectando-o a outros nós e seus vizinhos, indicando caminhos de até duas estradas. Marcas semelhantes, mas menos extensas, partem dos nós 1, 3 e 4. Na IMAGEM 2 (folha de registro), o estudante desenhou uma representação simplificada do mapa, com nós e linhas, e o nó 2 está circulado.",
+    "status": "ok"
+  },
+  "q3": {
+    "pontos_considerados": null,
+    "somente_resposta_final": true,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_ponto": false,
+    "explicacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "Porque o segundo ponto é o ponto mais central, a distância é menor.",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "Entender",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A012",
+  "codigo_atividade": "agua_para_todos",
+  "arquivo_resposta": "A012_resposta.jpg",
+  "arquivo_questao": "A012_questao.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:25:11",
+    "hashes_entrada": {
+      "resposta": "e9429027d85dfb1f2eb11693a5a2a40caf344db34e2b80a15a938dbaad75c4d3",
+      "questao": "3b3dbb9588bd48ffedb5a0fa789627601202bad24e12e75b3aeafb3e5ac2f82a"
+    }
+  }
+}

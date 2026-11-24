@@ -1,0 +1,48 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": "JÚLIA",
+  "nome_status": "ok",
+  "ano": "",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": null,
+    "observacao": null,
+    "status": "ok"
+  },
+  "q3": {
+    "resposta": null,
+    "status": "ilegivel"
+  },
+  "q4": {
+    "testou_caminho": true,
+    "representacao": "OBJETO INICIAL -> ♡ -> ♱ -> ♞",
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "VERIFICANDO TODOS OS CAMINHOS",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "ENTENDER",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": true,
+    "justificativa": "PORQUE A ESTRATÉGIA DELE FAZIA MAIS SENTIDO.",
+    "status": "ok"
+  },
+  "codigo_aluno": "A015",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A015_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:30:59",
+    "hashes_entrada": {
+      "resposta": "dbfa8cb108681094ab1549979e9c39f6a3dba9e8c5df1bc9469bad34a2667d4a"
+    }
+  }
+}

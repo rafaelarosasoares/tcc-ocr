@@ -1,0 +1,52 @@
+{
+  "atividade": "Água para todos",
+  "nome_estudante": "SVILHINA",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "D",
+    "status": "ok"
+  },
+  "q2": {
+    "representacao": "EU CONTANDO ATÉ ACHAR QUE FAZIA MAIS SENTIDO.",
+    "status": "ok"
+  },
+  "q3": {
+    "pontos_considerados": [
+      3
+    ],
+    "somente_resposta_final": false,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_ponto": false,
+    "explicacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "TEVE UM QUE SÓ CHECAVA NO 4",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "A PARTE DE CONTAR OS PONTINHOS",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": true,
+    "justificativa": "PORQUE AI EU CONTEI CERTINHO DE NOVO",
+    "status": "ok"
+  },
+  "codigo_aluno": "A007",
+  "codigo_atividade": "agua_para_todos",
+  "arquivo_resposta": "A007_resposta.jpg",
+  "arquivo_questao": "A007_questao.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:24:08",
+    "hashes_entrada": {
+      "resposta": "c1bc028b12195414a6e2926a57d451e753ed5318bd4b62eeafc4767fecf2084c",
+      "questao": "b2f274485fbddaaa04f4ef4e90276d7804760ace052e2b43afcf5839af14b0cf"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "atividade": "Água para todos",
+  "nome_estudante": "Eduardo",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "A",
+    "status": "ok"
+  },
+  "q2": {
+    "representacao": "No mapa da questão (IMAGEM 1), há diversas marcações a lápis: linhas traçadas conectando nós, formando caminhos, e alguns 'X' marcados sobre certas arestas. Na folha de resposta (IMAGEM 2), há um desenho que representa dois caminhos distintos. O primeiro caminho começa em um nó marcado com '1', segue por uma linha, passa por outro nó, e termina em um nó marcado com 'V'. O segundo caminho começa em um nó marcado com '2', segue por uma linha, passa por outro nó, e termina em um nó marcado com 'V'. Há também um nó isolado marcado com 'V' no canto superior direito do desenho.",
+    "status": "revisar"
+  },
+  "q3": {
+    "pontos_considerados": null,
+    "somente_resposta_final": true,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_ponto": false,
+    "explicacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "contei se o caminho escolhido tinha duas ou uma estrada a ser percorrida.",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "para mim, o mais difícil foi entender o que era a estrada que a linha era equivalente a um caminho.",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A010",
+  "codigo_atividade": "agua_para_todos",
+  "arquivo_resposta": "A010_resposta.jpg",
+  "arquivo_questao": "A010_questao.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:24:41",
+    "hashes_entrada": {
+      "resposta": "a1efb16da4ca1b814ccd0c6a4dbcae6e572e5bed6c56cbe76c7fa10989bbd364",
+      "questao": "76bd38dd37416aa03cb99232dbc656e78559ea3f8be1c5e660cc066b3affcc4e"
+    }
+  }
+}

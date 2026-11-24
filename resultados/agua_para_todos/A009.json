@@ -1,0 +1,52 @@
+{
+  "atividade": "Água para todos",
+  "nome_estudante": "Erick Rezer de souza Martins",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "D",
+    "status": "ok"
+  },
+  "q2": {
+    "representacao": "contando as bolinhas, se desse mais de 2 tava errado ou menos tava certo",
+    "status": "ok"
+  },
+  "q3": {
+    "pontos_considerados": [
+      4
+    ],
+    "somente_resposta_final": true,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_ponto": true,
+    "explicacao": "tinha tentado e mais teve bolinhas que tinha que passar por mais de 2 vilas",
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "contando cada ponto até todos de 2 OU menos",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "contar as bolinhas",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": "entender mais facil",
+    "status": "ok"
+  },
+  "codigo_aluno": "A009",
+  "codigo_atividade": "agua_para_todos",
+  "arquivo_resposta": "A009_resposta.jpg",
+  "arquivo_questao": "A009_questao.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:24:28",
+    "hashes_entrada": {
+      "resposta": "ccc41eddda829409dad42a0ac0ec6b5c6587b1ed7a23a9512da55c350fee7130",
+      "questao": "c34c2f8d0a1d68eb104f195d549c20d5632d002d05f6ebf6846633c768d80beb"
+    }
+  }
+}

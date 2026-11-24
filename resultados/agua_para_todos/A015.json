@@ -1,0 +1,52 @@
+{
+  "atividade": "Água para todos",
+  "nome_estudante": "Miguel Angel",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "D",
+    "status": "ok"
+  },
+  "q2": {
+    "representacao": "só olhei qual era o mais longe dos outros caixas de água",
+    "status": "ok"
+  },
+  "q3": {
+    "pontos_considerados": [
+      2
+    ],
+    "somente_resposta_final": false,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_ponto": false,
+    "explicacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "não verifiquei",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "tem pessoas mesma que acham isto dificil?",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A015",
+  "codigo_atividade": "agua_para_todos",
+  "arquivo_resposta": "A015_resposta.jpg",
+  "arquivo_questao": "A015_questao.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:25:54",
+    "hashes_entrada": {
+      "resposta": "c24f15f83b67a835d128cad9681552d7f06e9476d7c91bb6bf4185aeade278d0",
+      "questao": "6e8e96c5d474655eb3989669ae7129a9596fc28304bee7ca09c2136fb83c7f0b"
+    }
+  }
+}

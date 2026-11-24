@@ -1,6 +1,6 @@
 {
   "atividade": "As chaves do cofre",
-  "nome_estudante": "Mª Luiza Fortes",
+  "nome_estudante": "Ma Luiza Fortes",
   "nome_status": "ok",
   "ano": "8º",
   "q1": {
@@ -9,9 +9,9 @@
   },
   "q2": {
     "sequencia": [
-      "círculo",
-      "hexágono",
-      "triângulo invertido",
+      "O",
+      "hexagono",
+      "triangulo invertido",
       "estrela"
     ],
     "observacao": null,
@@ -23,7 +23,7 @@
   },
   "q4": {
     "testou_caminho": true,
-    "representacao": "círculo -> triângulo invertido -> círculo -> seta -> círculo",
+    "representacao": "Círculo, triângulo invertido, losango, círculo com seta para fora",
     "status": "ok"
   },
   "q5": {
@@ -31,7 +31,7 @@
     "status": "ok"
   },
   "q6": {
-    "resposta": "USAR o cérebro.",
+    "resposta": "usar o cérebro.",
     "status": "ok"
   },
   "q7": {
@@ -45,9 +45,9 @@
   "_processamento": {
     "versao": "2.1",
     "modelo": "gemini-2.5-flash",
-    "processado_em": "2026-10-02T00:43:32",
+    "processado_em": "2026-11-10T23:22:02",
     "hashes_entrada": {
-      "resposta": "b5ba1a779b781e7dbafffb4c519e1a0de6deb004e8fac69c55bb6e070de74c24"
+      "resposta": "7fe830587070f0207ea76df61aba17ff81dffb30dd67221007761e9be4d4e878"
     }
   }
 }

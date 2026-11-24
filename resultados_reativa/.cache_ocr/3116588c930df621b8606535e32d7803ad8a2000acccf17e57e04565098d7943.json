@@ -1,0 +1,43 @@
+{
+  "texto": "FOLHA DE REGISTRO\n1. Qual alternativa você escolheu?\nA() BX C() D()\n2. Quais combinações de quadradinhos você testou?\nTestei todas as combinaçés porêruis até chegar na raspusta.\n3. Mostre como você comparou as quatro cédulas. Use sua criatividade: você pode responder com marcaçõ\nfolha.\nNo cidula de lors I está em bomo lo lo hintendo, nade JOR &\nI eats hintendo I a la em branco, Na nata de so ar dais estão lintodos\nI nadi 100 ces dais estão em branco. Elas farom alternando os\nquabadinher\n4. Você testou alguma combinação que não funcionou?\nSim () Não\nCaso tenha testado, mostre e explique essa combinaçãoj\nTertiu ce Joeza már els não alternariam.\n5. Por que essa combinação não conseguia diferenciar todas as cédulas?\nPaês não attomallom os quatrodiakos.\n6. Como você verificou que os dois quadradinhos escolhidos eram suficientes?\nbois eles re altanovam em todas as a cedulas.\n7. Qual foi a parte mais difícil da atividade?\nDescobris a rerbarta correta\n8. Depois de conversar com um colega, você mudou sua resposta ou estratégia?\nNão () Sim\nO que fez você mudar?\n",
+  "paginas": [
+    {
+      "pagina": 1,
+      "qualidade": 0.2438807487487793,
+      "defeitos": [
+        {
+          "tipo": "quality/defect_document_cutoff",
+          "confianca": 1.0
+        },
+        {
+          "tipo": "quality/defect_glare",
+          "confianca": 0.7870169878005981
+        },
+        {
+          "tipo": "quality/defect_text_cutoff",
+          "confianca": 0.5
+        },
+        {
+          "tipo": "quality/defect_faint",
+          "confianca": 0.1936485767364502
+        },
+        {
+          "tipo": "quality/defect_noisy",
+          "confianca": 0.09562121331691742
+        },
+        {
+          "tipo": "quality/defect_text_too_small",
+          "confianca": 0.07038839161396027
+        },
+        {
+          "tipo": "quality/defect_blurry",
+          "confianca": 0.019774997606873512
+        },
+        {
+          "tipo": "quality/defect_dark",
+          "confianca": 0.002714377362281084
+        }
+      ]
+    }
+  ]
+}

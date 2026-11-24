@@ -1,0 +1,1326 @@
+{
+  "versao": 1,
+  "semente": 42,
+  "registros_na_amostra": 10,
+  "instrucoes": "Transcreva a imagem sem consultar a extração automática. Preencha referencia com os mesmos tipos do schema (texto, booleano ou lista). Use null para campo realmente vazio e só marque conferido como true depois da conferência. Não invente referências para conteúdo ilegível: deixe conferido=false. A amostra distribui registros por atividade e presença de pendências; os percentuais descrevem esta amostra, não toda a turma.",
+  "itens": [
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A002",
+      "questao": "q1",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A002_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A002_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "alternativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "45dec1b1b8b692212c8730fa1b35b762890b681ac58f158d934e02fff091511a"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A002",
+      "questao": "q2",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A002_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A002_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "representacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "42633b8ac26525cd083364095b511a6d721493d7833aab228aef9e0d8844e48a"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A002",
+      "questao": "q3",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A002_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A002_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "pontos_considerados": null,
+        "somente_resposta_final": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "a59bde35b70cb3ea361bf8439369f73fddaecf285be55ffe2f2daab490fb1cd9"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A002",
+      "questao": "q4",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A002_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A002_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "testou_ponto": null,
+        "explicacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "1122c25f4597956e1387fc620bdbaa368a9a69ac239e58e9c1f058e2d2dd1bf5"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A002",
+      "questao": "q5",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A002_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A002_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "e643df900dafa3b7c7bdf90ffdf2805da6c96128750600740c4ab262d7afdc22"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A002",
+      "questao": "q6",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A002_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A002_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "434d17ea3e8de45442d596856d3382c8898f4d5663f8a1726a7856e62487e6f9"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A002",
+      "questao": "q7",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A002_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A002_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "mudou_resposta": null,
+        "justificativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "819c086594b18000d438e28c240298f5888f1f484b67251c7d70f7c1b490d5cb"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A010",
+      "questao": "q1",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A010_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A010_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "alternativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "7bfe40bf6626e227951e43b08a249dda887f764ba581ce3f4073e6637ff44399"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A010",
+      "questao": "q2",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A010_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A010_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "representacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "2fa0f5e54be85c8334214e781d3ebd59266c42cde8fe7d839e9d27db7fa5fac6"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A010",
+      "questao": "q3",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A010_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A010_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "pontos_considerados": null,
+        "somente_resposta_final": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "a59bde35b70cb3ea361bf8439369f73fddaecf285be55ffe2f2daab490fb1cd9"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A010",
+      "questao": "q4",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A010_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A010_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "testou_ponto": null,
+        "explicacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "1122c25f4597956e1387fc620bdbaa368a9a69ac239e58e9c1f058e2d2dd1bf5"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A010",
+      "questao": "q5",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A010_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A010_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "e33b33301bc6dce47208e6d060e4073888c6667bf21d39788e0d55392a05215e"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A010",
+      "questao": "q6",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A010_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A010_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "8fdd975ec193cf802dc60c1e9badeb6cb9cf3d6dfc15fc5a88c1d7ee82a62775"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A010",
+      "questao": "q7",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A010_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A010_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "mudou_resposta": null,
+        "justificativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "819c086594b18000d438e28c240298f5888f1f484b67251c7d70f7c1b490d5cb"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A008",
+      "questao": "q1",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A008_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "alternativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "7bfe40bf6626e227951e43b08a249dda887f764ba581ce3f4073e6637ff44399"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A008",
+      "questao": "q2",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A008_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "sequencia": null,
+        "observacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "60efa7523b75665d7b10056d802e5235d4bf864267179a97d8381ad57b10b639"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A008",
+      "questao": "q3",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A008_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "9ced7e6b60d8bbfa8156c108481587e1abb03c069e5d7abd4b870fd067772b09"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A008",
+      "questao": "q4",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A008_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "testou_caminho": null,
+        "representacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "8ee6bbe681a9617e860cafdd5d933807d5ce44aa4119bdce2e51fe5e366c015a"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A008",
+      "questao": "q5",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A008_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "1584a429ba8337889b04f1aeb0aec3870507528ef26aeb254ee951e31b19bfda"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A008",
+      "questao": "q6",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A008_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "faecdcad918265f59ddbc5f19a5c6c33140f5bbd5b6a92e2ad3e86db96fb4dc6"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A008",
+      "questao": "q7",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A008_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "mudou_resposta": null,
+        "justificativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "819c086594b18000d438e28c240298f5888f1f484b67251c7d70f7c1b490d5cb"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A010",
+      "questao": "q1",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A010_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "alternativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "4180ee398a3d11ab17fa145bd2581b881fe1d26f70e854d6deeb8df7084403ee"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A010",
+      "questao": "q2",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A010_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "sequencia": null,
+        "observacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "7f496d4e474dcab4ec9c05e6e8b393c8b9311a25c0493fab071c82320151c7c5"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A010",
+      "questao": "q3",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A010_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "9ced7e6b60d8bbfa8156c108481587e1abb03c069e5d7abd4b870fd067772b09"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A010",
+      "questao": "q4",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A010_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "testou_caminho": null,
+        "representacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "ee0c09406c9025c0f9676aa9cb0bf3b70a2be39298cb3bb409f0273090f831c0"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A010",
+      "questao": "q5",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A010_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "6bfb1aca59bfd1bda2e4dbad2cd72050b49e8dad5fda9b45e0c4323dde6eca39"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A010",
+      "questao": "q6",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A010_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "03501c0cb6446a0b7b9ae254631830164b74203b15b01ac837ec981920f7d19c"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A010",
+      "questao": "q7",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A010_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "mudou_resposta": null,
+        "justificativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "819c086594b18000d438e28c240298f5888f1f484b67251c7d70f7c1b490d5cb"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A001",
+      "questao": "q1",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A001_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A001_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "alternativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "45dec1b1b8b692212c8730fa1b35b762890b681ac58f158d934e02fff091511a"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A001",
+      "questao": "q2",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A001_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A001_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "representacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "6bea676c48d49ab6d246f7b062ba2b0616f9f9f93240dc3e4b2e3b993fe52455"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A001",
+      "questao": "q3",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A001_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A001_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "pontos_considerados": null,
+        "somente_resposta_final": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "a59bde35b70cb3ea361bf8439369f73fddaecf285be55ffe2f2daab490fb1cd9"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A001",
+      "questao": "q4",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A001_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A001_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "testou_ponto": null,
+        "explicacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "1122c25f4597956e1387fc620bdbaa368a9a69ac239e58e9c1f058e2d2dd1bf5"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A001",
+      "questao": "q5",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A001_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A001_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "6a48e141e61a79b8654848b59ebc78ff4615e5a3264d6f6b551c497ffb668c7b"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A001",
+      "questao": "q6",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A001_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A001_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "26fd95adde95bd0d2a2959edb3d8b410913ad85495102ada4ca6cd871aae3303"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A001",
+      "questao": "q7",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A001_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A001_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "mudou_resposta": null,
+        "justificativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "819c086594b18000d438e28c240298f5888f1f484b67251c7d70f7c1b490d5cb"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A008",
+      "questao": "q1",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A008_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A008_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "alternativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "45dec1b1b8b692212c8730fa1b35b762890b681ac58f158d934e02fff091511a"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A008",
+      "questao": "q2",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A008_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A008_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "representacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "05fd19dc5ebac7ab26c6a5ead485df514631cb683e231351e02af41209fa31bb"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A008",
+      "questao": "q3",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A008_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A008_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "pontos_considerados": null,
+        "somente_resposta_final": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "a59bde35b70cb3ea361bf8439369f73fddaecf285be55ffe2f2daab490fb1cd9"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A008",
+      "questao": "q4",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A008_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A008_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "testou_ponto": null,
+        "explicacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "1122c25f4597956e1387fc620bdbaa368a9a69ac239e58e9c1f058e2d2dd1bf5"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A008",
+      "questao": "q5",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A008_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A008_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "61181dbb4997b677c7a93b544178910b34695c13abd1a82d4865d69db278d63e"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A008",
+      "questao": "q6",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A008_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A008_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "ca0ec8c8f9e4726c500641b565351598d094db83a7fb3aa593d74d85e988783b"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A008",
+      "questao": "q7",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A008_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A008_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "mudou_resposta": null,
+        "justificativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "819c086594b18000d438e28c240298f5888f1f484b67251c7d70f7c1b490d5cb"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A001",
+      "questao": "q1",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A001_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "alternativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "4180ee398a3d11ab17fa145bd2581b881fe1d26f70e854d6deeb8df7084403ee"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A001",
+      "questao": "q2",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A001_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "sequencia": null,
+        "observacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "96dcd57ce717d8adc765b079cbd23d097f491bfd2645bd279fec8b8a96e3c2de"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A001",
+      "questao": "q3",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A001_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "9ced7e6b60d8bbfa8156c108481587e1abb03c069e5d7abd4b870fd067772b09"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A001",
+      "questao": "q4",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A001_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "testou_caminho": null,
+        "representacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "b289a5f28ea9629cc6b193f1455acad72beeb9d2a99e6e623a4f3514ff005355"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A001",
+      "questao": "q5",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A001_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "240cb80352d8165161ef8d03a0d4d609f5f067a844d37300e62c6ee5b3aa4459"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A001",
+      "questao": "q6",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A001_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "307e6a6d4d929198169c9758ac6e93fcdf3e6874f8b97d899c74b7234c8e0fd0"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A001",
+      "questao": "q7",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A001_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "mudou_resposta": null,
+        "justificativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "30cbeec69513b0e2ff222f931b5c90dc611a690ae3170f5c8f91042e086abe67"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A003",
+      "questao": "q1",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A003_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "alternativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "7bfe40bf6626e227951e43b08a249dda887f764ba581ce3f4073e6637ff44399"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A003",
+      "questao": "q2",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A003_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "sequencia": null,
+        "observacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "5da2dc91a83566dc1f1fcc2f5b4dce134f1d022da64f56906cea20b374e0038a"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A003",
+      "questao": "q3",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A003_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "9ced7e6b60d8bbfa8156c108481587e1abb03c069e5d7abd4b870fd067772b09"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A003",
+      "questao": "q4",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A003_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "testou_caminho": null,
+        "representacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "14e487fbda3279b105bc74b1cb725d4ffafe32d5a43cc1b20a5f4799ecde1a31"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A003",
+      "questao": "q5",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A003_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "ead95d64c61e2877e84fa430df43187eb05870e9037e92cbb2b7178e24ef6c25"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A003",
+      "questao": "q6",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A003_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "76417a82d30fbd2c1698483df2cced3c4f50030795a5881a91420b3e2635f532"
+    },
+    {
+      "atividade": "chaves_do_cofre",
+      "codigo": "A003",
+      "questao": "q7",
+      "fontes": {
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/chaves_do_cofre/A003_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "mudou_resposta": null,
+        "justificativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "819c086594b18000d438e28c240298f5888f1f484b67251c7d70f7c1b490d5cb"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A009",
+      "questao": "q1",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A009_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A009_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "alternativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "45dec1b1b8b692212c8730fa1b35b762890b681ac58f158d934e02fff091511a"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A009",
+      "questao": "q2",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A009_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A009_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "representacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "4c4149a3ab114aa4b98ea234ac407c9a118d0e7da06dce308edd9ba908afaa00"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A009",
+      "questao": "q3",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A009_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A009_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "pontos_considerados": null,
+        "somente_resposta_final": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "0c5714b658d5f14e8705b22141ca307c5632004ac62e7be4b309220db031bd98"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A009",
+      "questao": "q4",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A009_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A009_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "testou_ponto": null,
+        "explicacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "b2cabc7d1dff1c828d3218ef66819c770c1915b6bc12fa0c1ed5caa2d077b5a8"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A009",
+      "questao": "q5",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A009_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A009_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "979b435c86ce6385b11f2ac7920e1f9ad3f4532b9aafe0d70902b41fe693dd21"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A009",
+      "questao": "q6",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A009_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A009_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "1e84ecb5bca72742942b60fbe20d83c951637402ddfe2e0e5a863d0a8eb9c3e7"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A009",
+      "questao": "q7",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A009_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada_drive/importacao-g0_hfdhe/agua_para_todos/A009_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "mudou_resposta": null,
+        "justificativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "7baf5e6cb11a25150e153abff79581906c871c26357fecf1d089cf6f45fed27e"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A003",
+      "questao": "q1",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A003_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A003_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "alternativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "109bf6742afdf30af5ea39f60a9c4819c08ff3f30c584c211937c948737dbab1"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A003",
+      "questao": "q2",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A003_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A003_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "representacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "af0a7bab00c92667a471895f7016833577af9167c46d031fb1d908a3bdb57a2c"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A003",
+      "questao": "q3",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A003_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A003_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "pontos_considerados": null,
+        "somente_resposta_final": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "a59bde35b70cb3ea361bf8439369f73fddaecf285be55ffe2f2daab490fb1cd9"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A003",
+      "questao": "q4",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A003_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A003_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "testou_ponto": null,
+        "explicacao": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "1122c25f4597956e1387fc620bdbaa368a9a69ac239e58e9c1f058e2d2dd1bf5"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A003",
+      "questao": "q5",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A003_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A003_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "4ef5bc312b9a0886fc43667bc5d9fe8b9ea6cdb4879ccf77178de89bacd063ae"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A003",
+      "questao": "q6",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A003_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A003_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "resposta": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "65b6228fc441f54a5fb912d19f6765b8cd619bd97f45876786e9461d71159434"
+    },
+    {
+      "atividade": "agua_para_todos",
+      "codigo": "A003",
+      "questao": "q7",
+      "fontes": {
+        "questao": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A003_questao.jpg",
+          "drive": null
+        },
+        "resposta": {
+          "local": "/Users/enzoveroneze/tcc-ocr/entrada/agua_para_todos/A003_resposta.jpg",
+          "drive": null
+        }
+      },
+      "referencia": {
+        "mudou_resposta": null,
+        "justificativa": null
+      },
+      "conferido": false,
+      "assinatura_extracao": "819c086594b18000d438e28c240298f5888f1f484b67251c7d70f7c1b490d5cb"
+    }
+  ]
+}

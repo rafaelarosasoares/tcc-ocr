@@ -1,39 +1,37 @@
 {
   "atividade": "As chaves do cofre",
-  "nome_estudante": null,
-  "nome_status": "ausente",
+  "nome_estudante": "Eduarda",
+  "nome_status": "ok",
   "ano": "8º",
   "q1": {
-    "alternativa": "B",
+    "alternativa": "A",
     "status": "ok"
   },
   "q2": {
     "sequencia": [
-      "triângulo",
+      "círculo",
+      "pentágono",
       "estrela",
-      "lua crescente",
-      "estrela",
-      "GG",
       "chave"
     ],
     "observacao": null,
-    "status": "ok"
+    "status": "revisar"
   },
   "q3": {
     "resposta": null,
     "status": "ok"
   },
   "q4": {
-    "testou_caminho": false,
+    "testou_caminho": true,
     "representacao": null,
     "status": "ok"
   },
   "q5": {
-    "resposta": "PORQUE NÃO TICHA OUTRA",
+    "resposta": "Fazendo varios Teutes.",
     "status": "ok"
   },
   "q6": {
-    "resposta": "O COFRE.",
+    "resposta": "descobrir o caminho.",
     "status": "ok"
   },
   "q7": {
@@ -47,9 +45,9 @@
   "_processamento": {
     "versao": "2.1",
     "modelo": "gemini-2.5-flash",
-    "processado_em": "2026-10-02T00:44:06",
+    "processado_em": "2026-11-10T23:22:27",
     "hashes_entrada": {
-      "resposta": "ae4209373fe364062811afb1170d8c005f9dd4db2846a842a180ccdfd5820fe5"
+      "resposta": "a91bcd4ef3321a4c38b1a68d8c7de4ffc17513d32f0d3df44308654d7e80e736"
     }
   }
 }

@@ -1,0 +1,107 @@
+{
+  "atividade": "Dinheiro de Castor",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "combinacoes_testadas": [
+      "Testei todas as combinações possíveis até chegar na resposta."
+    ],
+    "status": "ok"
+  },
+  "q3": {
+    "comparacao": "Na cédula de 10 R$ 9 está em branco e o 10 pintado, na de 20 R$ 9 está pintado e o 10 em branco, Na de 50 os dois estão pintados e na de 100 os dois estão em branco. Elas foram alternando os quadradinhos.",
+    "status": "ok"
+  },
+  "q4": {
+    "testou_combinacao": true,
+    "combinacao_ou_explicacao": "Testei a 007a mas eles não alternariam.",
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "Pois não alternavam os quadradinhos.",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "Pois eles se alternavam em todas as 4 cédulas.",
+    "status": "ok"
+  },
+  "q7": {
+    "resposta": "Descobrir a resposta correta",
+    "status": "ok"
+  },
+  "q8": {
+    "mudou_resposta_ou_estrategia": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "_motivos_revisao": {},
+  "_processamento": {
+    "assinatura": "96e952574bf94b9157f04a1c7a7504b78c230488296855cb3645477d99d07e68",
+    "hashes_entrada": {
+      "resposta": "f5a1156e8d6a779acc241e51b9acea80fcde2c5114a44531d412a98d84f0e600"
+    },
+    "assinatura_interpretacao": "41d92dd33050bbbf6ec291fc3ef22d2a50985dfb779dd09c8d396cdeba023929",
+    "config_ocr": {
+      "processador": "projects/project-5e3bf1fd-47b5-442e-90d/locations/us/processors/15f792d10b41ff08",
+      "qualidade_imagem": true,
+      "versao_ocr": 1
+    },
+    "modelo": "gemini-2.5-flash",
+    "versao": "3.0",
+    "processado_em": "2026-11-21T20:48:50+00:00"
+  },
+  "_qualidade_imagens": {
+    "resposta": [
+      {
+        "pagina": 1,
+        "qualidade": 0.2438807487487793,
+        "defeitos": [
+          {
+            "tipo": "quality/defect_document_cutoff",
+            "confianca": 1.0
+          },
+          {
+            "tipo": "quality/defect_glare",
+            "confianca": 0.7870169878005981
+          },
+          {
+            "tipo": "quality/defect_text_cutoff",
+            "confianca": 0.5
+          },
+          {
+            "tipo": "quality/defect_faint",
+            "confianca": 0.1936485767364502
+          },
+          {
+            "tipo": "quality/defect_noisy",
+            "confianca": 0.09562121331691742
+          },
+          {
+            "tipo": "quality/defect_text_too_small",
+            "confianca": 0.07038839161396027
+          },
+          {
+            "tipo": "quality/defect_blurry",
+            "confianca": 0.019774997606873512
+          },
+          {
+            "tipo": "quality/defect_dark",
+            "confianca": 0.002714377362281084
+          }
+        ]
+      }
+    ]
+  },
+  "codigo_aluno": "A013",
+  "codigo_atividade": "dinheiro_de_castor",
+  "_fontes": {
+    "resposta": {
+      "local": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A013_resposta.jpg",
+      "drive": null
+    }
+  },
+  "arquivo_resposta": "A013_resposta.jpg",
+  "_avisos_entrada": []
+}

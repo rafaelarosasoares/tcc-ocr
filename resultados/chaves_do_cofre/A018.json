@@ -1,0 +1,53 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": "Luana",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": [
+      "pentagono",
+      "triangulo",
+      "estrela",
+      "null"
+    ],
+    "observacao": null,
+    "status": "ok"
+  },
+  "q3": {
+    "resposta": "desenho de pentágono, triângulo, estrela e espaço em branco",
+    "status": "ok"
+  },
+  "q4": {
+    "testou_caminho": true,
+    "representacao": "círculo, coração, círculo, coração",
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "Porque chegou raízes no cofre.",
+    "status": "revisar"
+  },
+  "q6": {
+    "resposta": "entender",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": true,
+    "justificativa": "porque fez mau sentidos",
+    "status": "ok"
+  },
+  "codigo_aluno": "A018",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A018_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:31:36",
+    "hashes_entrada": {
+      "resposta": "92f717f71200e40e407c7a4a9296e171e34e7b2cec548ab5d376b4fb04e4232b"
+    }
+  }
+}

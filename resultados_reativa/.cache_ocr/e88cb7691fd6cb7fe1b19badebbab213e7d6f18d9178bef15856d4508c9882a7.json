@@ -1,0 +1,23 @@
+{
+  "texto": "LHA DE REGISTRO\nvidade Bebras: Dinheiro de castor\n- Qual alternativa você escolheu?\nA() B(X) C() D()\n2. Quais combinações de quadradinhos você testou?\n9\n10\n3. Mostre como você comparou as quatro cédulas. Use sua criatividade: você pode responder com marcaçõ\nfolha.\nCUSO ANALIZE\nAS CE DULAS\nE ACHE,\n4. Você testou alguma combinação que não funcionou?\n() Sim (x) Não\nCaso tenha testado, mostre e explique essa combinação:\n5. Por que essa combinação não conseguia diferenciar todas as cédulas?\nPOR QUE, NÃO\nTINHA\nA CÉDULAS\nO SUFICIENTE\n6. Como você verificou que os dois quadradinhos escolhidos eram suficientes?\nCALCULANDO AS\nCÉDULAS\n7. Qual foi a parte mais difícil da atividade?\nACHAB A \nCÉDULAS\nNUMERO D10\n8. Depois de conversar com um colega, você mudou sua resposta ou estratégia?\n(x) Não () Sim\nO que fez você mudar?\n",
+  "paginas": [
+    {
+      "pagina": 1,
+      "qualidade": 0.9607760310173035,
+      "defeitos": [
+        {
+          "tipo": "quality/defect_document_cutoff",
+          "confianca": 1.0
+        },
+        {
+          "tipo": "quality/defect_text_cutoff",
+          "confianca": 0.8801240921020508
+        },
+        {
+          "tipo": "quality/defect_glare",
+          "confianca": 0.6736716032028198
+        }
+      ]
+    }
+  ]
+}

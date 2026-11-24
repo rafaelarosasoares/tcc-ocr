@@ -1,0 +1,79 @@
+{
+  "atividade": "Sinais de Trânsito",
+  "q1": {
+    "simbolo": "O (circulado)",
+    "justificativa": "PORQUE EU VI PRIMEIRO",
+    "status": "ok"
+  },
+  "q2": {
+    "texto": null,
+    "desenho": "Um desenho em grade com 4 linhas e 4 colunas. Cada célula contém um símbolo. A primeira coluna contém 'O' (circulado) em todas as linhas. As colunas 2, 3 e 4 contêm 'D' (circulado) em todas as linhas. Um caminho é traçado com linhas e setas, começando na célula superior esquerda ('O' circulado), descendo uma célula, virando à direita uma célula, descendo uma célula, virando à direita uma célula, descendo uma célula, e virando à direita uma célula, terminando na célula inferior direita ('D' circulado). Na célula inferior direita, há um símbolo de diamante. Há também um símbolo de quadrado com uma linha diagonal na terceira linha, primeira coluna, e um símbolo de círculo com uma cruz na segunda linha, primeira coluna.",
+    "status": "ok"
+  },
+  "q3": {
+    "testou_significado": false,
+    "hipotese_descartada": null,
+    "como_percebeu": null,
+    "status": "ok"
+  },
+  "q4": {
+    "resposta": "FUI DE UMA FORMA DIFERENTE",
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "PORQUE EU FUI TESTANDO",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "FOI TESTAR ATÉ CHEGAR NO CERTO",
+    "status": "ok"
+  },
+  "_motivos_revisao": {},
+  "_processamento": {
+    "assinatura": "c685fde83c5e28e52b4481b0a847f6e674dbb7c55595e4f69d4c4952b4cc64d5",
+    "hashes_entrada": {
+      "resposta": "7f1257cd78ce3396f0cc09da0604b869a3f246eab4de759ba88617935f167090"
+    },
+    "assinatura_interpretacao": "bc0a6915400f08b721fa0f1586681e7843b6959a1c681b47c235c80d4b43e03d",
+    "config_ocr": {
+      "processador": "projects/project-5e3bf1fd-47b5-442e-90d/locations/us/processors/15f792d10b41ff08",
+      "qualidade_imagem": true,
+      "versao_ocr": 1
+    },
+    "modelo": "gemini-2.5-flash",
+    "versao": "3.0",
+    "processado_em": "2026-11-21T20:45:57+00:00"
+  },
+  "_qualidade_imagens": {
+    "resposta": [
+      {
+        "pagina": 1,
+        "qualidade": 0.9504885077476501,
+        "defeitos": [
+          {
+            "tipo": "quality/defect_document_cutoff",
+            "confianca": 1.0
+          },
+          {
+            "tipo": "quality/defect_glare",
+            "confianca": 0.7637966871261597
+          },
+          {
+            "tipo": "quality/defect_text_cutoff",
+            "confianca": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "codigo_aluno": "A001",
+  "codigo_atividade": "sinais_de_transito",
+  "_fontes": {
+    "resposta": {
+      "local": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/sinais_de_transito/A001_resposta.jpg",
+      "drive": null
+    }
+  },
+  "arquivo_resposta": "A001_resposta.jpg",
+  "_avisos_entrada": []
+}

@@ -1,0 +1,53 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": "Ammar Liah",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": [
+      "círculo com cruz",
+      "triângulo apontando para baixo",
+      "estrela de cinco pontas",
+      "lua crescente"
+    ],
+    "observacao": null,
+    "status": "ok"
+  },
+  "q3": {
+    "resposta": "Desenho de uma grade de 3x4 quadrados. Alguns quadrados contêm um 'X'. Linhas conectam os quadrados, formando um caminho.",
+    "status": "ok"
+  },
+  "q4": {
+    "testou_caminho": true,
+    "representacao": "Sequência de símbolos conectados por setas: um quadrado, um coração, um losango, um coração, um sinal de mais, e uma forma irregular.",
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "TESTANDO O CAMINHO ERRADO",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "SIMPOTE TEM UM 2° CAMINHO",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A016",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A016_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:31:13",
+    "hashes_entrada": {
+      "resposta": "751919549ccb3458fb43763d0abaf5aae032af2b79fed3ddf7001fed91d42c20"
+    }
+  }
+}

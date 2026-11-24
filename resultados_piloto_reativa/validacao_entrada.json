@@ -1,0 +1,38 @@
+{
+  "entrada": "/Users/enzoveroneze/tcc-ocr/entrada_piloto",
+  "registros": [
+    {
+      "atividade": "sinais_de_transito",
+      "codigo": "A001",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_piloto/sinais_de_transito/A001_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "915ed75560002cec1fa88cc809970b9706a6cee4ea204fa7befdb17938b4191a"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    },
+    {
+      "atividade": "dinheiro_de_castor",
+      "codigo": "A001",
+      "arquivos": {
+        "resposta": "/Users/enzoveroneze/tcc-ocr/entrada_piloto/dinheiro_de_castor/A001_resposta.jpg"
+      },
+      "hashes": {
+        "resposta": "ae3a5ac18f7e28f7bb000ac69188e55aeb506dd4791cfc21fbeda84c1eb3f9b4"
+      },
+      "erros_validacao": [],
+      "avisos": [],
+      "estado": "pendente",
+      "etapa": "validacao"
+    }
+  ],
+  "avisos": [
+    "Atividade sem pasta: chaves_do_cofre",
+    "Atividade sem pasta: agua_para_todos"
+  ],
+  "criado_em": "2026-11-21T20:30:24+00:00"
+}

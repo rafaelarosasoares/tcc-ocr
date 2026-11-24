@@ -1,0 +1,50 @@
+{
+  "atividade": "Água para todos",
+  "nome_estudante": "Helena Fernandes",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "A",
+    "status": "ok"
+  },
+  "q2": {
+    "representacao": "No mapa (Imagem 1), os nós 1, 2, 3, o nó imediatamente à esquerda de 1 e o nó imediatamente à direita de 1 estão circulados. Linhas mais grossas conectam o nó à esquerda de 1 ao nó 1, o nó 1 ao nó 2, o nó 2 ao nó 3, o nó 1 ao nó à direita de 1 e o nó acima de 1 ao nó 1. Na folha de registro (Imagem 2), há um desenho esquemático com 5 nós. O nó central é rotulado '1' e está conectado a outros quatro nós. Os nós são rotulados 'A' (superior esquerdo), '2' (superior direito), '3' (inferior direito) e 'B' (inferior esquerdo). Números '1', '2', '3' estão escritos próximos a algumas conexões. Linhas mais grossas destacam os caminhos 'A-1', '1-2', '2-3', '1-B' e '1-nó superior'.",
+    "status": "ok"
+  },
+  "q3": {
+    "pontos_considerados": null,
+    "somente_resposta_final": true,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_ponto": false,
+    "explicacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "Contando e verificando os caminhos.",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "Descobrir a resposta final",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A011",
+  "codigo_atividade": "agua_para_todos",
+  "arquivo_resposta": "A011_resposta.jpg",
+  "arquivo_questao": "A011_questao.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:24:58",
+    "hashes_entrada": {
+      "resposta": "506bee2c44ba0783e4841e05c868b328e21393baf55a384854a1c34c43f3228f",
+      "questao": "83116538f4a5c405b12abac0a8f30967170efbebfca49f65ca447ecfa01b7a2e"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+.venv/
+entrada_drive/
+.env
+credentials*.json
+client_secret*.json
+service-account*.json
+token*.json
+resultados/.cache_ocr/
+resultados/.planilha-*/

@@ -1,0 +1,10 @@
+{
+  "campos_conferidos": 0,
+  "campos_concordantes": 0,
+  "concordancia_exata": null,
+  "questoes_nao_conferidas": 70,
+  "divergencias_marcadas_ok": 0,
+  "por_atividade": {},
+  "criterio": "Correspondência de conteúdo por campo, normalizando apenas Unicode e espaços. Listas preservam ordem. Descrições semanticamente equivalentes podem divergir; confira os casos antes de interpretar as métricas. Não é uma nota do estudante nem uma estimativa de precisão da turma.",
+  "detalhes": []
+}

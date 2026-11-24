@@ -1,0 +1,55 @@
+{
+  "atividade": "As chaves do cofre",
+  "nome_estudante": "Maria Claro",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "A",
+    "status": "ok"
+  },
+  "q2": {
+    "sequencia": [
+      "coração",
+      "quadrado",
+      "estrela",
+      "triângulo",
+      "árvore com estrela",
+      "lua crescente"
+    ],
+    "observacao": null,
+    "status": "ok"
+  },
+  "q3": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_caminho": false,
+    "representacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "OBSERVANDO E TENTANDO",
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "ACHAR O CODIGO CERTO",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": true,
+    "justificativa": "PORQUE MINHA RESPOSTA TAVA ERRADA",
+    "status": "ok"
+  },
+  "codigo_aluno": "A009",
+  "codigo_atividade": "chaves_do_cofre",
+  "arquivo_resposta": "A009_resposta.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:23:39",
+    "hashes_entrada": {
+      "resposta": "16abb7ecf603908c78aa09dc70849bb5375feb7c1a1333215a89dee8f3ed7d2c"
+    }
+  }
+}

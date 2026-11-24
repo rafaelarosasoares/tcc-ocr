@@ -1,0 +1,50 @@
+{
+  "atividade": "Água para todos",
+  "nome_estudante": "NicolAS",
+  "nome_status": "ok",
+  "ano": "8º",
+  "q1": {
+    "alternativa": "D",
+    "status": "ok"
+  },
+  "q2": {
+    "representacao": "FUI CONTANDO 1 POR 1",
+    "status": "ok"
+  },
+  "q3": {
+    "pontos_considerados": null,
+    "somente_resposta_final": true,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_ponto": false,
+    "explicacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": "ACHEI UM QUE SÓ CHEGAVA NO QUA",
+    "status": "revisar"
+  },
+  "q6": {
+    "resposta": "CONTAR",
+    "status": "ok"
+  },
+  "q7": {
+    "mudou_resposta": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "codigo_aluno": "A008",
+  "codigo_atividade": "agua_para_todos",
+  "arquivo_resposta": "A008_resposta.jpg",
+  "arquivo_questao": "A008_questao.jpg",
+  "_processamento": {
+    "versao": "2.1",
+    "modelo": "gemini-2.5-flash",
+    "processado_em": "2026-11-10T23:24:18",
+    "hashes_entrada": {
+      "resposta": "4aa501ee73d7dae54e6d0768d8500410492ba833a74aba87b1e3dda5de02f3e4",
+      "questao": "96b52a5a8561d1c36289e42b4a04c1a3635d5bc83e4da62030b32b01dd790500"
+    }
+  }
+}

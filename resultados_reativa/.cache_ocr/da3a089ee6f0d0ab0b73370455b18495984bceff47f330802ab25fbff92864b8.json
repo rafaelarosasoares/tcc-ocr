@@ -1,0 +1,23 @@
+{
+  "texto": "FOLHA DE REGISTRO\n1. Qual sinal você tentou descobrir primeiro? Por quê?\nTODOS, PORQUE TESTAMOS CADA OPÇÃO PARA DESCOBRIR.\n2. Mostre como você acompanhou pelo menos um dos percursos. Você pode usar setas,\ncoordenadas, desenho, tabela ou outra representação.\nA-\n3. Você testou algum significado para um sinal que depois percebeu que estava errado?\nSIM\nNÃO [ ]\nSe sim, qual hipótese você descartou e o que fez você perceber o erro?\nVER QUE O CAMINHO NAD LEVOU ATÉ O AEROPORTO..\n4. Como você usou o segundo percurso para confirmar ou corrigir sua primeira ideia?\n5. Como você verificou que os quatro significados funcionavam nos dois percursos?\n6. Qual foi a parte mais difícil da atividade?\n",
+  "paginas": [
+    {
+      "pagina": 1,
+      "qualidade": 0.9875863194465637,
+      "defeitos": [
+        {
+          "tipo": "quality/defect_document_cutoff",
+          "confianca": 1.0
+        },
+        {
+          "tipo": "quality/defect_glare",
+          "confianca": 0.7713421583175659
+        },
+        {
+          "tipo": "quality/defect_text_cutoff",
+          "confianca": 0.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "texto": "FOLHA DE REGISTRO\nAtividade Bebras Dinheiro de castor\n1. Qual alternativa você escolheu?\nA() BAC() D()\n2. Quais combinações de quadradinhos você testou?\n1\nC\n1-C\n3. Mostre como você comparou as quatro cédulas. Use sua criatividade: você pode responder com marcaçõ\nfolha.\nG\nFACILITAN, ATRIBUI\nPATA\nBAD PLO ANALISANDO\nNÃO\nSE\nREPETEM\nDIFERENTES: 10 (01)\n100(00)\n4. Você testou alguma combinação que não funcionou?\nSim() Não\nVALORES\n0\nAo\nAFOLC)\n96 To\nTEM\n20 (10)\nCaso tenha testado, mostre e explique essa combinação:\n1 E\nALTERNATIVA\nG\n6\nNO\nTINHN\n1-2\nCOMBINACOUS\nSo (11)\n5. Por que essa combinação não conseguia diferenciar todas as cédulas?\nPois\nELAS\nSE\nREPTIN\n6. Como você verificou que os dois quadradinhos escolhidos eram suficientes? NIC\nPOIS\nTINANM\n7. Qual foi a parte mais difícil da atividade?\nNENHUMA\nUNICO\n8. Depois de conversar com um colega, você mudou sua resposta ou estratégia?\nNão () Sim\nO que fez você mudar?\n",
+  "paginas": [
+    {
+      "pagina": 1,
+      "qualidade": 0.6673043370246887,
+      "defeitos": [
+        {
+          "tipo": "quality/defect_document_cutoff",
+          "confianca": 1.0
+        },
+        {
+          "tipo": "quality/defect_glare",
+          "confianca": 0.7831128835678101
+        },
+        {
+          "tipo": "quality/defect_text_cutoff",
+          "confianca": 0.5
+        },
+        {
+          "tipo": "quality/defect_faint",
+          "confianca": 0.13900065422058105
+        },
+        {
+          "tipo": "quality/defect_noisy",
+          "confianca": 0.0843428298830986
+        },
+        {
+          "tipo": "quality/defect_text_too_small",
+          "confianca": 0.03184257075190544
+        },
+        {
+          "tipo": "quality/defect_blurry",
+          "confianca": 0.014314742758870125
+        },
+        {
+          "tipo": "quality/defect_dark",
+          "confianca": 0.0019460383336991072
+        }
+      ]
+    }
+  ]
+}

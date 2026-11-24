@@ -1,0 +1,87 @@
+{
+  "atividade": "Dinheiro,de castor",
+  "q1": {
+    "alternativa": "B",
+    "status": "ok"
+  },
+  "q2": {
+    "combinacoes_testadas": [
+      "9 e 10"
+    ],
+    "status": "ok"
+  },
+  "q3": {
+    "comparacao": null,
+    "status": "ok"
+  },
+  "q4": {
+    "testou_combinacao": false,
+    "combinacao_ou_explicacao": null,
+    "status": "ok"
+  },
+  "q5": {
+    "resposta": null,
+    "status": "ok"
+  },
+  "q6": {
+    "resposta": "porque a proffessora explicou",
+    "status": "ok"
+  },
+  "q7": {
+    "resposta": "fazer ela",
+    "status": "ok"
+  },
+  "q8": {
+    "mudou_resposta_ou_estrategia": false,
+    "justificativa": null,
+    "status": "ok"
+  },
+  "_motivos_revisao": {},
+  "_processamento": {
+    "assinatura": "29b2d2db314868b0765d80b612e05e8d91afcedc584a2bf01ebd6790195cc9a4",
+    "hashes_entrada": {
+      "resposta": "ceb799fe98eb0dc012fb1329a2cea4dbdc6fde5e6cae084a54ebf3e20916a273"
+    },
+    "assinatura_interpretacao": "41d92dd33050bbbf6ec291fc3ef22d2a50985dfb779dd09c8d396cdeba023929",
+    "config_ocr": {
+      "processador": "projects/project-5e3bf1fd-47b5-442e-90d/locations/us/processors/15f792d10b41ff08",
+      "qualidade_imagem": true,
+      "versao_ocr": 1
+    },
+    "modelo": "gemini-2.5-flash",
+    "versao": "3.0",
+    "processado_em": "2026-11-21T20:49:05+00:00"
+  },
+  "_qualidade_imagens": {
+    "resposta": [
+      {
+        "pagina": 1,
+        "qualidade": 0.9780938625335693,
+        "defeitos": [
+          {
+            "tipo": "quality/defect_document_cutoff",
+            "confianca": 1.0
+          },
+          {
+            "tipo": "quality/defect_text_cutoff",
+            "confianca": 0.8805047273635864
+          },
+          {
+            "tipo": "quality/defect_glare",
+            "confianca": 0.6803597807884216
+          }
+        ]
+      }
+    ]
+  },
+  "codigo_aluno": "A015",
+  "codigo_atividade": "dinheiro_de_castor",
+  "_fontes": {
+    "resposta": {
+      "local": "/Users/enzoveroneze/tcc-ocr/entrada_reativa/dinheiro_de_castor/A015_resposta.jpg",
+      "drive": null
+    }
+  },
+  "arquivo_resposta": "A015_resposta.jpg",
+  "_avisos_entrada": []
+}
